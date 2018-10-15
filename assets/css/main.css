@@ -722,14 +722,14 @@
 			margin-bottom: 1.5em;
 		}
 
-			#main .avatar img {
+			/*#main .avatar img {
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
 				box-shadow: 0 0 0 1.5em #ffffff;
-			}
+			}*/
 
-			#main .avatar:before {
+			/*#main .avatar:before {
 				content: '';
 				display: block;
 				position: absolute;
@@ -739,7 +739,7 @@
 				height: 1px;
 				z-index: -1;
 				background: #c8cccf;
-			}
+			}*/
 
 		@media screen and (max-width: 480px) {
 
