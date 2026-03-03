@@ -36,3 +36,20 @@ Current focus areas:
 - [X / Twitter](https://x.com/markmacmahon/)
 - [Instagram](https://www.instagram.com/markmacmahon/)
 - [Email](mailto:mark.macmahon@gmail.com)
+
+## Media Kit
+
+### Short Bio
+
+Mark MacMahon is a technology leader and CTO focused on AI agents, product architecture, and engineering execution. He has worked across Ireland, the US, Belgium, Germany, and Spain, helping companies turn technical capability into products that ship and scale.
+
+### Long Bio
+
+Mark MacMahon is a systems-level technologist with nearly three decades in software. His work spans engineering leadership, product strategy, and platform execution across startups and scale environments in Europe and the US.
+
+He currently leads in AI-focused product contexts, with experience across search, marketplaces, security, mobility, media platforms, and enterprise systems. His writing focuses on AI agents, trust boundaries, friction, architecture, and what changes when the bottleneck moves from implementation to intent.
+
+### Photos
+
+- [Profile Photo (Current, 3024x3024 JPG)](/images/mark-macmahon-profile-2026.jpg)
+- [Profile Photo (Legacy, 287x287 JPG)](/images/mark-macmahon-profile.jpg)
