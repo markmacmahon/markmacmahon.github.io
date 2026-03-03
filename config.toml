@@ -1,0 +1,30 @@
+baseURL = 'https://markmacmahon.com/'
+languageCode = 'en-us'
+title = 'Mark MacMahon'
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = 'Systems-level writing on AI agents, architecture, leadership, trust, friction, and code craftsmanship.'
+  author = 'Mark MacMahon'
+
+[permalinks]
+  posts = '/posts/:slug/'
+
+[taxonomies]
+  tag = 'tags'
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
+
+[outputs]
+  home = ['HTML', 'RSS']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
