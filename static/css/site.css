@@ -84,6 +84,14 @@ h1, h2, h3 {
   height: auto;
 }
 
+.content > p:first-child img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
