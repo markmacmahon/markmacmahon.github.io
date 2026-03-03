@@ -3,11 +3,13 @@ title = 'About'
 slug = 'about'
 +++
 
-![Mark MacMahon profile photo](/images/mark-macmahon-profile.jpg)
+![Mark MacMahon profile photo](/images/mark-macmahon-profile-2026.jpg)
 
 I am a systems-level technologist with nearly three decades in software, working across Ireland, the US, Belgium, Germany, and Spain.
 
 My work sits at the intersection of engineering, product, and execution. I write about what changes when constraints move: from bandwidth to trust, from implementation detail to architectural discipline, and from typing to thinking.
+
+AI product builder, CTO, and operator focused on turning technical capability into products that ship and grow.
 
 Current focus areas:
 
