@@ -79,6 +79,20 @@ h1, h2, h3 {
   font-size: 14px;
 }
 
+.home-profile {
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.home-profile-photo {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+}
+
 .content img {
   max-width: 100%;
   height: auto;
