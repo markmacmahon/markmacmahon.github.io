@@ -27,3 +27,10 @@ hugo server -D
 ## Deploy
 
 Push to `main` to trigger GitHub Actions Pages deploy.
+
+If you need to trigger a fresh deploy without content changes:
+
+```bash
+git commit --allow-empty -m "Trigger GitHub Pages redeploy"
+git push
+```
