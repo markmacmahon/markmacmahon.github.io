@@ -147,4 +147,4 @@ One blinking cursor loop is closed. Another is open.
 
 > Friday evening, 16 November 1985: My first trip to Manchester. United 0-0 Spurs, 54,575 in Old Trafford. That’s me in the bucket hat - I didn’t know it yet, but it was rehearsal for a different kind of obsession with Manchester that involved the Stone Roses, the Happy Mondays and Oasis
 
-Song for this post: “I Will Follow” - U2 (1980)
+Song for this post: [“I Will Follow” - U2 (1980)](https://open.spotify.com/track/40lKv5fLpzPHV1YQ7nrfMg)

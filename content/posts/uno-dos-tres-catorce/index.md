@@ -260,4 +260,4 @@ It’s building the wrong thing.
 
 *Part 1 of this series is here*: [Back to the Cursor](/posts/back-to-the-cursor/)
 
-Song for this post: “Vertigo” - U2 (2004)
+Song for this post: [“Vertigo” - U2 (2004)](https://open.spotify.com/track/1gVVSmhWjci8l9Vrsl6HaS)
