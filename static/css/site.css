@@ -106,6 +106,19 @@ h1, h2, h3 {
   border: 1px solid var(--line);
 }
 
+.connect-links {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.connect-links a {
+  color: var(--muted);
+}
+
+.connect-links a:hover {
+  color: var(--link);
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--muted);

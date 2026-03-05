@@ -10,7 +10,7 @@ From the Sinclair Spectrum to AI agents - some patterns do not change.
 
 I wasn’t expecting to see a Sinclair Spectrum on the wall of a startup office in rural Spain.
 
-Every month I travel from Madrid to [Villena](https://en.wikipedia.org/wiki/Villena), where Luzia was founded. It’s a small town - vineyards, mountains, steady rhythm. Not the obvious birthplace of a company building at the edge of AI.
+Every month I travel from Madrid to [Villena](https://en.wikipedia.org/wiki/Villena), where [Luzia](https://luzia.com) was founded. It’s a small town - vineyards, mountains, steady rhythm. Not the obvious birthplace of a company building at the edge of AI.
 
 Framed on the wall: a black rubber keyboard with a thin rainbow stripe in the corner.
 
@@ -65,7 +65,7 @@ In hindsight it was absurd, but it captured something real about the transition:
 
 ## 1994
 
-In 1994 I walked into Dublin City University to study computer applications.
+In 1994 I walked into [Dublin City University](https://www.dcu.ie/) to study computer applications.
 
 I hadn’t grown up around PCs. The first time I sat down at a Windows NT workstation, I genuinely didn’t know which key to press to log in.
 
@@ -112,15 +112,11 @@ When building is slower than thinking, frustration creeps in. When building spee
 
 That shift is not just personal. It is a systems signal.
 
-## Arc
-
-Dublin -> Washington DC -> Brussels -> Berlin -> Madrid.
-
-Different cities, different stacks, but the same recurring questions: identity, trust, interfaces, and how humans hand agency to systems.
-
 ## Madrid
 
-I live in Madrid now. After nearly three decades in software - across Ireland, the US, Belgium, Germany and Spain - I feel something familiar again.
+Dublin, Washington DC, Brussels, Berlin, Madrid - different cities, different stacks, but the same recurring questions: identity, trust, interfaces, and how humans hand agency to systems.
+
+After nearly three decades in software, I feel something familiar again.
 
 Curiosity.  
 Speed.  
@@ -130,13 +126,7 @@ It would be easy to romanticise this moment. I won’t.
 
 But there’s something quietly fitting about building AI systems in a company that started in a small Spanish town and being reminded it began with a rubber keyboard and a blinking cursor.
 
-In the next post, I’ll go back to Hannover Quay in 2003/2004 - where I was working on a concept very close to what we’re building at Luzia now, just before the technology was ready for it.
-
-I have a lot of material to get through, so expect a quick run of posts - a bit like a band recording a first album.
-
-I’ll be working through my thoughts on AI agents, architecture, leadership, friction, and code craftsmanship, with the odd bit of nostalgia and anecdote along the way.
-
-The series is really about one question: what changes when systems can finally keep up with intent?
+In the next post, I'll go back to Hannover Quay in 2003/2004 - where I was working on a concept very close to what we're building at Luzia now, just before the technology was ready for it.
 
 The obsession has come back in loops: first at home with the Spectrum, then in the labs as a student, and now with AI-assisted coding.
 

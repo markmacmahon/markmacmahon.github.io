@@ -2,13 +2,17 @@
 <section class="home-profile">
   <img class="home-profile-photo" src="/images/mark-macmahon-profile-2026.jpg" alt="Mark MacMahon profile photo" />
   <h1>Mark MacMahon</h1>
-  <p>AI Product Builder | CTO</p>
-  <p>CTO at Luzia. Founder of ContextRocket.</p>
-  <p>I write about AI agents, architecture, leadership, trust, friction, and code craftsmanship.</p>
+  <p>CTO at <a href="https://luzia.com">Luzia</a>, based in Madrid.</p>
+  <p>Three decades in software - Dublin, Washington DC, Brussels, Berlin, Madrid. Writing about AI, agents, architecture, and leadership. More memoir than manual.</p>
+  <p class="connect-links">
+    <a href="https://www.linkedin.com/in/markmacmahon/">LinkedIn</a> ·
+    <a href="https://x.com/markmacmahon/">X</a> ·
+    <a href="https://www.instagram.com/markmacmahon/">Instagram</a>
+  </p>
 </section>
 
 <section>
-  <h2>Latest Posts</h2>
+  <h2>Posts</h2>
   <ul class="post-list">
     {{ range first 10 (where site.RegularPages "Section" "posts") }}
       <li>

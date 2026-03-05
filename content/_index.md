@@ -2,6 +2,4 @@
 title = 'Home'
 +++
 
-Technology leader, advisor, and CTO.
-
-Writing about AI agents, architecture, leadership, trust, friction, and code craftsmanship.
+CTO at Luzia, based in Madrid. Three decades in software - Dublin, Washington DC, Brussels, Berlin, Madrid. Writing about AI, agents, architecture, and leadership. More memoir than manual.

@@ -8,6 +8,13 @@
     <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="stylesheet" href="/css/site.css" />
     {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .RelPermalink }}" />{{ end }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TXR15D0457"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TXR15D0457');
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -15,7 +22,6 @@
         <a class="brand" href="/">Mark MacMahon</a>
         <nav>
           <a href="/posts/">Posts</a>
-          <a href="/about/">About</a>
         </nav>
       </div>
     </header>

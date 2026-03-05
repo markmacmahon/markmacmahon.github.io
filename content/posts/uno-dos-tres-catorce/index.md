@@ -16,7 +16,7 @@ Next door, U2 were recording what would become *How to Dismantle an Atomic Bomb*
 When [*Vertigo*](https://en.wikipedia.org/wiki/Vertigo_(U2_song)) hit radio and downloads in September 2004, that “uno, dos, tres, catorce” became impossible to escape. It leaked into taxis, pubs, late-night radio - and somehow into your internal monologue.
 Two decades later, living in Madrid, that Spanish count-in sounds less like nostalgia and more like a bridge.
 
-Across the desk from me sat Shay Healy - broadcaster, writer, a real media presence. We’d talk. Occasionally go for a drink. Mostly he worked quietly, someone who understood tone and timing as craft.
+Across the desk from me sat [Shay Healy](https://en.wikipedia.org/wiki/Shay_Healy) - broadcaster, writer, a real media presence. We’d talk. Occasionally go for a drink. Mostly he worked quietly, someone who understood tone and timing as craft.
 
 On one side of the office: embodied presence.  
 On the other: us, trying to encode it.
@@ -40,7 +40,7 @@ The simplest description is this:
 
 i-Chara was a personal agent you could carry on your phone.
 
-In Japan, during the i-mode era, each user had a character - an animated proxy that:
+In Japan, during the [i-mode](https://en.wikipedia.org/wiki/I-mode) era, each user had a character - an animated proxy that:
 
 - remembered preferences
 - represented the user in a network
@@ -55,30 +55,19 @@ This wasn’t a mascot. It wasn’t decoration.
 
 It was an architectural decision.
 
-Underneath, it was closer to constrained rule/state flows with profile matching than open-ended dialogue.
+Underneath, it was closer to constrained rule/state flows with profile matching than open-ended dialogue. We were building agents without models.
 
 Key characteristics that feel uncomfortably current in 2026:
 
-### Preference memory
+**Preference memory.** The character learned what you liked - interests, lifestyle signals, behaviour patterns.
 
-The character learned what you liked - interests, lifestyle signals, behaviour patterns.
+**Proactive discovery.** It could "meet" other agents in the network and return with matches, recommendations, or introductions.
 
-### Proactive discovery
+**Matching as a first-class primitive.** People-to-people. People-to-vendors. Vendors represented as characters too.
 
-It could “meet” other agents in the network and return with matches, recommendations, or introductions.
+**Location-triggered intent.** The idea that something relevant might surface when you passed a store was already present.
 
-### Matching as a first-class primitive
-
-People-to-people. People-to-vendors. Vendors represented as characters too.
-
-### Location-triggered intent
-
-The idea that something relevant might surface when you passed a store was already present.
-
-### Privacy by design
-
-Contact details weren’t automatically exchanged. The human and the agent decided what to reveal and when. Privacy wasn’t bolted on. It was structural.
-That design choice mattered because it made trust legible to users, not just implementable for engineers.
+**Privacy by design.** Contact details weren't automatically exchanged. The human and the agent decided what to reveal and when. Privacy wasn't bolted on. It was structural. That design choice mattered because it made trust legible to users, not just implementable for engineers.
 
 Strip away the early-2000s UI and what you’re left with is a recognisable thesis:
 
@@ -147,7 +136,7 @@ At the same time, I was deep in early-2000s enterprise Java.
 
 EJBs were dominant. Heavy. Ceremonial. Container-first. It felt like building with gloves on.
 
-And then a quieter movement started gaining traction - Interface21, which would become the Spring Framework. Rod Johnson and Juergen Hoeller were pushing something different:
+And then a quieter movement started gaining traction - Interface21, which would become the [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework). Rod Johnson and Juergen Hoeller were pushing something different:
 
 Less ceremony.  
 More composability.  
@@ -180,25 +169,17 @@ To be precise: this is conceptual continuity, not code lineage.
 
 What it was trying to build maps closely onto what we’re building today - just with modern machinery.
 
-At Luzia, we’re not trying to build a universal Q&A machine.
+At [Luzia](https://luzia.com), we're not trying to build a universal Q&A machine.
 
 Look at the parallels:
 
-### Agent as user proxy
+**Agent as user proxy** - acting on your behalf, not just answering questions.
 
-Acting on your behalf, not just answering questions.
+**Proactive assistance** - not waiting for prompts, but surfacing the right thing at the right time.
 
-### Proactive assistance
+**Privacy as architecture** - control over what gets revealed, when, how, and to whom.
 
-Not waiting for prompts, but surfacing the right thing at the right time.
-
-### Privacy as architecture
-
-Control over what gets revealed - when, how, and to whom.
-
-### Personality as interface
-
-Not aesthetic garnish. Behavioural infrastructure.
+**Personality as interface** - not aesthetic garnish. Behavioural infrastructure.
 
 Here’s the slightly uncomfortable claim:
 
@@ -212,13 +193,13 @@ Because they’re:
 - safer
 - closer to how humans actually delegate
 
-We don’t want a universal librarian.
+Search is retrieval. Chat is interaction. Agents are delegation.
+
+We don't want a universal librarian.
 
 We want a trusted proxy.
 
-That’s the difference.
-
-## The Stronger Conclusion
+## What Actually Shifted
 
 i-Chara wasn’t “early ChatGPT.”
 

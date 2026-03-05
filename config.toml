@@ -7,7 +7,7 @@ enableRobotsTXT = true
   pagerSize = 10
 
 [params]
-  description = 'Systems-level writing on AI agents, architecture, leadership, trust, friction, and code craftsmanship.'
+  description = 'Essays on AI, agents, architecture, and leadership. Three decades of building software. More memoir than manual.'
   author = 'Mark MacMahon'
 
 [permalinks]
