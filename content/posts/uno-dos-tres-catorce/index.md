@@ -141,7 +141,7 @@ At the same time, I was deep in early-2000s enterprise Java.
 
 EJBs were dominant. Heavy. Ceremonial. Container-first. It felt like building with gloves on.
 
-And then a quieter movement started gaining traction - Interface21, which would become the [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework). Rod Johnson and Juergen Hoeller were pushing something different:
+And then a quieter movement started gaining traction - Interface21, which would become the [Spring Framework](https://en.wikipedia.org/wiki/Spring_Framework). [Rod Johnson](https://en.wikipedia.org/wiki/Rod_Johnson_(programmer)) and [Juergen Hoeller](https://en.wikipedia.org/wiki/Juergen_Hoeller) were pushing something different. I was an early adopter and minor contributor in those days, tracking commits on [SourceForge](https://en.wikipedia.org/wiki/SourceForge) - close enough to see the shift happening in real time:
 
 Less ceremony.  
 More composability.  
