@@ -138,6 +138,5 @@ The obsession has come back in loops: first at home with the Spectrum, then in t
 One blinking cursor loop is closed. Another is open.
 
 ![Manchester United family photo from 1985](manchester-united-family-photo-1985.jpg)
-*Family photo from the Manchester era around the 1985 Old Trafford trip.*
 
-> Friday evening, 16 November 1985: My first trip to Manchester. United 0-0 Spurs, 54,575 in Old Trafford. That’s me in the bucket hat - I didn’t know it yet, but it was rehearsal for a different kind of obsession with Manchester that involved the Stone Roses, the Happy Mondays and Oasis
+> Friday evening, 16 November 1985: My first trip to Manchester. United 0-0 Spurs, 54,575 in Old Trafford. That's me in the bucket hat - I didn't know it yet, but it was rehearsal for a different kind of obsession with Manchester that involved the Stone Roses, the Happy Mondays and Oasis
