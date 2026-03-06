@@ -1,0 +1,31 @@
+# Mark MacMahon
+
+> CTO at Luzia. Building ContextRocket. Three decades in software - Dublin, Washington DC, Brussels, Berlin, Madrid. Writing about AI, agents, architecture, and leadership.
+
+This is a personal essay series. Posts are numbered and meant to be read in sequence, though each stands alone.
+
+## Posts
+
+- [01 Back to the Cursor](https://markmacmahon.com/posts/back-to-the-cursor/): From the Sinclair Spectrum to AI agents - some patterns do not change.
+- [02 Uno. Dos. Tres. Catorce.](https://markmacmahon.com/posts/uno-dos-tres-catorce/): Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready.
+- [03 Expand. Extract.](https://markmacmahon.com/posts/expand-extract/): How to build agent systems without drowning in possibility.
+
+## Key Themes
+
+- Personal agents outperform generic assistants because personality changes behaviour
+- Privacy must be architectural, not bolted on
+- Friction shapes what gets built - constraint is not the enemy, it is the design surface
+- The bottleneck moved from typing to thinking
+- Expand widely, extract decisively - operating discipline for building agent systems
+
+## About the Author
+
+Mark MacMahon is CTO at Luzia (consumer AI, 45M+ users) and solo founder of ContextRocket (AI platform for search visibility and brand positioning). Previously CTO at FLOYT, VP Engineering at iApps/Adevinta, and engineering leadership roles across Dublin, Washington DC, Brussels, Berlin, and Madrid. Nearly 30 years in software across identity systems, search, mobile, and AI.
+
+## Links
+
+- Website: https://markmacmahon.com
+- LinkedIn: https://www.linkedin.com/in/markmacmahon/
+- X: https://x.com/markmacmahon/
+- ContextRocket: https://contextrocket.com
+- Luzia: https://luzia.com

@@ -1,5 +1,6 @@
 +++
 title = 'Home'
+[sitemap]
+  priority = 1.0
+  changefreq = 'weekly'
 +++
-
-CTO at Luzia. Building ContextRocket. Three decades in software - Dublin, Washington DC, Brussels, Berlin, Madrid. Writing about AI, agents, architecture, and leadership. More memoir than manual.

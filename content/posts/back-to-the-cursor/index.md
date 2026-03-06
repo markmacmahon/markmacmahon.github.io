@@ -3,8 +3,12 @@ title = 'Back to the Cursor'
 date = 2026-03-01T16:14:48Z
 slug = 'back-to-the-cursor'
 draft = false
+[sitemap]
+  priority = 0.8
 description = 'From the Sinclair Spectrum to AI agents - some patterns do not change.'
 [params]
+  series_number = 1
+  og_image = '/posts/back-to-the-cursor/sinclair-zx-spectrum-villena-1982.jpeg'
   song_title = 'I Will Follow'
   song_artist = 'U2'
   song_year = '1980'
@@ -25,8 +29,11 @@ And instantly, I was back in Dublin.
 
 Even then, the fascination wasn’t the machine itself; it was mediation - a tiny interface between human intent and system behaviour.
 
-![Framed Sinclair ZX Spectrum in the Villena office](sinclair-zx-spectrum-framed-villena-office.jpg)
-*Framed Sinclair ZX Spectrum, photographed in the Villena office.*
+{{< gallery >}}
+{{< gallery-item src="sinclair-zx-spectrum-villena-1982.jpeg" alt="Sinclair ZX Spectrum (1982) framed in the Luzia office, Villena" caption="Sinclair ZX Spectrum (1982) - rubber keyboard, rainbow stripe, exposed circuit board. The one that started it for me." >}}
+{{< gallery-item src="sinclair-zx81-villena-1981.jpeg" alt="Sinclair ZX81 (1981) framed in the Luzia office, Villena" caption="Sinclair ZX81 (1981) - the Spectrum's predecessor. Membrane keyboard, 1KB RAM." >}}
+{{< gallery-item src="sinclair-zx80-villena-1980.jpeg" alt="Sinclair ZX80 (1980) framed in the Luzia office, Villena" caption="Sinclair ZX80 (1980) - the original. First computer available in the UK for under 100 pounds." >}}
+{{< /gallery >}}
 
 ## The Ferry, the Fixtures, and the Ritual
 

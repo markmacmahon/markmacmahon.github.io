@@ -3,8 +3,12 @@ title = 'Uno. Dos. Tres. Catorce.'
 date = 2026-03-03T01:34:18Z
 slug = 'uno-dos-tres-catorce'
 draft = false
+[sitemap]
+  priority = 0.8
 description = 'Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready'
 [params]
+  series_number = 2
+  og_image = '/posts/uno-dos-tres-catorce/hannover-quay-old-studio-exterior.webp'
   song_title = 'Vertigo'
   song_artist = 'U2'
   song_year = '2004'
@@ -244,4 +248,6 @@ And the real risk isn’t being early.
 
 It’s building the wrong thing.
 
-*Part 1 of this series is here*: [Back to the Cursor](/posts/back-to-the-cursor/)
+*Next in the series*: [Expand. Extract.](/posts/expand-extract/) - How to build agent systems without drowning in possibility.
+
+*Part 1 of this series*: [Back to the Cursor](/posts/back-to-the-cursor/)

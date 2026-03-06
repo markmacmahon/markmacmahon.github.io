@@ -2,8 +2,9 @@
 <section class="home-profile">
   <img class="home-profile-photo" src="/images/mark-macmahon-profile-2026.jpg" alt="Mark MacMahon profile photo" />
   <h1>Mark MacMahon</h1>
-  <p>CTO at <a href="https://luzia.com">Luzia</a>. Building <a href="https://contextrocket.com">ContextRocket</a>.</p>
-  <p>Three decades in software - Dublin, Washington DC, Brussels, Berlin, Madrid. Writing about AI, agents, architecture, and leadership. More memoir than manual.</p>
+  <p>CTO at <a href="https://luzia.com">Luzia</a>. Building <a href="https://contextrocket.com">ContextRocket</a>.<br />
+  Three decades in software - Dublin, Washington DC, Brussels, Berlin, Madrid.<br />
+  Writing about AI, agents, architecture, and leadership. More memoir than manual.</p>
   <p class="connect-links">
     <a href="https://www.linkedin.com/in/markmacmahon/">LinkedIn</a> ·
     <a href="https://x.com/markmacmahon/">X</a> ·
@@ -14,10 +15,13 @@
 <section>
   <h2>Posts</h2>
   <ul class="post-list">
-    {{ range first 10 (where site.RegularPages "Section" "posts") }}
+    {{ range (where site.RegularPages "Section" "posts").ByParam "series_number" }}
       <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <span>{{ .Date.Format "02 Jan 2006" }}</span>
+        <a href="{{ .RelPermalink }}">
+          {{- with .Params.series_number }}<span class="series-num">{{ printf "%02d" . }}</span>{{ end }}
+          {{ .Title -}}
+        </a>
+        <span>{{ if .Params.coming_soon }}Coming soon{{ else }}{{ .Date.Format "02 Jan 2006" }}{{ end }}</span>
       </li>
     {{ end }}
   </ul>

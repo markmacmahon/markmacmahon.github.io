@@ -1,20 +1,26 @@
 baseURL = 'https://markmacmahon.com/'
 languageCode = 'en-us'
 title = 'Mark MacMahon'
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [pagination]
   pagerSize = 10
 
 [params]
-  description = 'Essays on AI, agents, architecture, and leadership. Three decades of building software. More memoir than manual.'
+  description = 'Essays on AI, agents, architecture, and leadership from three decades in software.'
   author = 'Mark MacMahon'
+
+[params.social]
+  twitter = 'markmacmahon'
+  linkedin = 'markmacmahon'
+
+[author]
+  name = 'Mark MacMahon'
 
 [permalinks]
   posts = '/posts/:slug/'
 
 [taxonomies]
-  tag = 'tags'
 
 [sitemap]
   changefreq = 'weekly'
@@ -23,6 +29,10 @@ enableRobotsTXT = true
 
 [outputs]
   home = ['HTML', 'RSS']
+
+[services]
+  [services.rss]
+    limit = 20
 
 [markup]
   [markup.goldmark]

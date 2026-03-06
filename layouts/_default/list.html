@@ -1,10 +1,13 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <ul class="post-list">
-  {{ range .Pages }}
+  {{ range .Pages.ByParam "series_number" }}
     <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <span>{{ .Date.Format "02 Jan 2006" }}</span>
+      <a href="{{ .RelPermalink }}">
+        {{- with .Params.series_number }}<span class="series-num">{{ printf "%02d" . }}</span>{{ end }}
+        {{ .Title -}}
+      </a>
+      <span>{{ if .Params.coming_soon }}Coming soon{{ else }}{{ .Date.Format "02 Jan 2006" }}{{ end }}</span>
     </li>
   {{ end }}
 </ul>
