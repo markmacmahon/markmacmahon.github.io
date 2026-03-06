@@ -3,7 +3,7 @@ title = 'Uno. Dos. Tres. Catorce.'
 date = 2026-03-03T01:34:18Z
 slug = 'uno-dos-tres-catorce'
 draft = false
-description = 'Hannover Quay, 2004 - The Shape of Agents Before the World Was Ready'
+description = 'Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready'
 [params]
   song_title = 'Vertigo'
   song_artist = 'U2'
@@ -11,14 +11,14 @@ description = 'Hannover Quay, 2004 - The Shape of Agents Before the World Was Re
   song_url = 'https://open.spotify.com/track/1gVVSmhWjci8l9Vrsl6HaS'
 +++
 
-## Hannover Quay, 2004 - The Shape of Agents Before the World Was Ready
+## Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready
 
 At Hannover Quay the docklands felt like they were inhaling.
 
-Cranes. Concrete. Scaffolding. The sense that Dublin was re-wiring itself in real time. This was before the “Grand Canal Dock tech scene” became a cliché, before global logos lined the water, before Google’s Docklands footprint came to define the area. The mythology didn’t exist yet.
+Cranes. Concrete. Scaffolding. The sense that Dublin was re-wiring itself in real time. This was before the "Grand Canal Dock tech scene" became a cliché, before global logos lined the water, before Google's Docklands footprint came to define the area. The mythology didn't exist yet.
 
-Next door, U2 were recording what would become *How to Dismantle an Atomic Bomb* around 2003/2004.  
-When [*Vertigo*](https://en.wikipedia.org/wiki/Vertigo_(U2_song)) hit radio and downloads in September 2004, that “uno, dos, tres, catorce” became impossible to escape. It leaked into taxis, pubs, late-night radio - and somehow into your internal monologue.
+Next door, U2 were recording what would become *How to Dismantle an Atomic Bomb*. The sessions ran from 2002 through 2004 - first with Chris Thomas producing, then Steve Lillywhite taking over when the band decided the early recordings were too polite. You'd see The Edge being dropped off, heading into the studio. It was just part of the background at Hannover Quay.
+When [*Vertigo*](https://en.wikipedia.org/wiki/Vertigo_(U2_song)) hit radio and downloads in September 2004, that "uno, dos, tres, catorce" became impossible to escape. It leaked into taxis, pubs, late-night radio - and somehow into your internal monologue.
 Two decades later, living in Madrid, that Spanish count-in sounds less like nostalgia and more like a bridge.
 
 Across the desk from me sat [Shay Healy](https://en.wikipedia.org/wiki/Shay_Healy) - broadcaster, writer, a real media presence. We’d talk. Occasionally go for a drink. Mostly he worked quietly, someone who understood tone and timing as craft.

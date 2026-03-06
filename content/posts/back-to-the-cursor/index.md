@@ -131,7 +131,7 @@ It would be easy to romanticise this moment. I won’t.
 
 But there’s something quietly fitting about building AI systems in a company that started in a small Spanish town and being reminded it began with a rubber keyboard and a blinking cursor.
 
-In the next post, I'll go back to Hannover Quay in 2003/2004 - where I was working on a concept very close to what we're building at Luzia now, just before the technology was ready for it.
+In the next post, [Uno. Dos. Tres. Catorce.](/posts/uno-dos-tres-catorce/), I'll go back to Hannover Quay in 2002-2004 - where I was working on a concept very close to what we're building at Luzia now, just before the technology was ready for it.
 
 The obsession has come back in loops: first at home with the Spectrum, then in the labs as a student, and now with AI-assisted coding.
 
