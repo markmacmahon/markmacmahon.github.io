@@ -1,0 +1,392 @@
+categoryOrder = [
+  "AI & Technology",
+  "Product & Engineering",
+  "Business & Startups",
+  "Economics & Finance",
+  "News & Politics",
+  "Culture, Science & Ideas",
+  "Marketing",
+  "Music",
+  "Comedy & Entertainment",
+  "True Crime",
+]
+
+tagOrder = ["AI", "Engineering", "Product", "Startups", "Science", "Politics", "Irish", "Comedy", "Music"]
+
+[[podcasts]]
+name = "Latent Space: The AI Engineer Podcast"
+host = "Latent.Space"
+url = "https://open.spotify.com/show/2p7zZVwVF6Yk0Zsb4QmT7t"
+description = "Foundation models, code generation, AI agents, and GPU infrastructure. Features engineers and researchers from OpenAI, Anthropic, Meta, and others."
+category = "AI & Technology"
+tags = ["AI", "Engineering"]
+image = "latent-space"
+
+[[podcasts]]
+name = "Cutting Edge AI"
+host = "Jens Lapinski & Robin Harbort"
+url = "https://open.spotify.com/show/3KeFXWDX1KWbmgDfCNpYWF"
+description = "How AI is reshaping technology, business, and society. Conversations with founders, engineers, and investors building next-generation AI products."
+category = "AI & Technology"
+tags = ["AI", "Startups"]
+image = "cutting-edge-ai"
+
+[[podcasts]]
+name = "The AI in Business Podcast"
+host = "Daniel Faggella"
+url = "https://open.spotify.com/show/4gD9xiYU9iC24vnjUx1PTg"
+description = "Targets business leaders seeking to identify AI opportunities and achieve ROI. Interviews with AI executives from Fortune 2000 firms and unicorn startups."
+category = "AI & Technology"
+tags = ["AI"]
+image = "ai-in-business"
+
+[[podcasts]]
+name = "How I AI"
+host = "Claire Vo"
+url = "https://open.spotify.com/show/4aRP2XSavdtrLG5FZoonOK"
+description = "Practical, actionable ways to integrate AI into professional and personal life. Each 30-minute episode features guests sharing specific workflows."
+category = "AI & Technology"
+tags = ["AI"]
+image = "how-i-ai"
+
+[[podcasts]]
+name = "The a16z Show"
+host = "Andreessen Horowitz"
+url = "https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX"
+description = "Technology and culture trends as software eats the world. Conversations on AI, healthcare, crypto, defence innovation, and startup strategy."
+category = "AI & Technology"
+tags = ["AI", "Startups", "Engineering"]
+image = "a16z"
+
+[[podcasts]]
+name = "Huberman Lab"
+host = "Andrew Huberman"
+url = "https://open.spotify.com/show/79CkJF3UJTHFV8Dse3Oy0P"
+description = "Neuroscience and science-based tools for understanding how the brain and body control perception, behaviour, and health."
+category = "AI & Technology"
+tags = ["Science"]
+image = "huberman-lab"
+
+[[podcasts]]
+name = "Lex Fridman Podcast"
+host = "Lex Fridman"
+url = "https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL"
+description = "Long-form conversations exploring technology, history, philosophy, AI, robotics, music, art, geopolitics, business, and the human condition."
+category = "AI & Technology"
+tags = ["AI", "Science"]
+image = "lex-fridman"
+
+[[podcasts]]
+name = "Geomob"
+host = "Geomob"
+url = "https://open.spotify.com/show/528ERtu3bNVn3Mc0zFysCE"
+description = "Geoinnovation for fun or profit. Explores geospatial technology, mapping innovations, satellite imagery, and AI in geocoding."
+category = "AI & Technology"
+tags = ["Engineering"]
+image = "geomob"
+
+[[podcasts]]
+name = "The Pragmatic Engineer"
+host = "Gergely Orosz"
+url = "https://open.spotify.com/show/2Bho9xCbOQMWMJ7UKmqCzD"
+description = "Software engineering at Big Tech and startups from the inside. Practical lessons and actionable advice for engineers and engineering managers."
+category = "Product & Engineering"
+tags = ["Engineering"]
+image = "pragmatic-engineer"
+
+[[podcasts]]
+name = "Thoughtworks Technology Podcast"
+host = "Thoughtworks"
+url = "https://open.spotify.com/show/6RBb4pGRgOFTmtCDSfTWvu"
+description = "Cutting-edge technology topics through discussions with senior technologists. AI, software architecture, and emerging development practices."
+category = "Product & Engineering"
+tags = ["Engineering"]
+image = "thoughtworks"
+
+[[podcasts]]
+name = "alphalist.CTO Podcast"
+host = "Tobias Schlottke"
+url = "https://open.spotify.com/show/08QvFNH32V1yRiwfNQhTYx"
+description = "Interviews with CTOs covering AI, DevOps, web architecture, scaling teams, mentoring, and technical recruiting."
+category = "Product & Engineering"
+tags = ["Engineering", "AI"]
+image = "alphalist-cto"
+
+[[podcasts]]
+name = "Stratechery"
+host = "Ben Thompson"
+url = "https://open.spotify.com/show/1jRACH7L8EQCYKc5uW7aPk"
+description = "Analysis and commentary on business, technology, and economic topics through interviews and standalone episodes."
+category = "Product & Engineering"
+tags = ["Product", "AI"]
+image = "stratechery"
+
+[[podcasts]]
+name = "Lenny's Podcast"
+host = "Lenny Rachitsky"
+url = "https://open.spotify.com/show/2dR1MUZEHCOnz1LVfNac0j"
+description = "Conversations with world-class product leaders and growth experts. Concrete, actionable, tactical advice for building and growing products."
+category = "Product & Engineering"
+tags = ["Product"]
+image = "lennys-podcast"
+
+[[podcasts]]
+name = "Product Thinking"
+host = "Melissa Perri"
+url = "https://open.spotify.com/show/3TV1jXZqlSFCzZ3xqvcG96"
+description = "Levelling up product leadership and organisational systems. Connects with industry experts in product management."
+category = "Product & Engineering"
+tags = ["Product"]
+image = "product-thinking"
+
+[[podcasts]]
+name = "The Story of Software"
+host = "Ricky Hill"
+url = "https://open.spotify.com/show/1vBoa64F7Lg6NOthcCqzbB"
+description = "The people and technology that have transformed our world. A bi-weekly look at software's evolution - what came before, what is now, and what will be."
+category = "Product & Engineering"
+tags = ["Engineering", "Irish"]
+image = "story-of-software"
+
+[[podcasts]]
+name = "Acquired"
+host = "Ben Gilbert & David Rosenthal"
+url = "https://open.spotify.com/show/7Fj0XEuUQLUqoMZQdsLXqp"
+description = "Company histories and business strategies through long-form episodes. The playbooks that built the world's greatest companies."
+category = "Business & Startups"
+tags = ["Startups"]
+image = "acquired"
+
+[[podcasts]]
+name = "The Diary Of A CEO"
+host = "Steven Bartlett"
+url = "https://open.spotify.com/show/7iQXmUT7XGuZSzAMjoNWlX"
+description = "Unfiltered conversations with the world's most fascinating CEOs, experts, therapists, and leaders."
+category = "Business & Startups"
+tags = ["Startups"]
+image = "diary-of-a-ceo"
+
+[[podcasts]]
+name = "Cheeky Pint"
+host = "John Collison"
+url = "https://open.spotify.com/show/2IHbGJJMpiFoz5YrvRfTFw"
+description = "Stripe co-founder interviews founders, builders, and leaders over a pint. Long-form conversations across fintech, AI, hardware, and energy."
+category = "Business & Startups"
+tags = ["Startups", "Irish"]
+image = "cheeky-pint"
+
+[[podcasts]]
+name = "The Twenty Minute VC"
+host = "Harry Stebbings"
+url = "https://open.spotify.com/show/3j2KMcZTtgTNBKwtZBMHvl"
+description = "Interviews with prominent venture capitalists and founders. Past guests include Doug Leone, Bill Gurley, Daniel Ek, and Reid Hoffman."
+category = "Business & Startups"
+tags = ["Startups"]
+image = "twenty-minute-vc"
+
+[[podcasts]]
+name = "My First Million"
+host = "Sam Parr & Shaan Puri"
+url = "https://open.spotify.com/show/3mliji9352UAk3XnWElnDV"
+description = "Brainstorming new business ideas based on trends and opportunities. Occasional notable guests join ideation sessions."
+category = "Business & Startups"
+tags = ["Startups"]
+image = "my-first-million"
+
+[[podcasts]]
+name = "The Entrepreneur Experiment"
+host = "Gary Fox"
+url = "https://open.spotify.com/show/0m734g5SrcZdfApdWP0ITt"
+description = "Interviews with extraordinary founders about building thriving businesses while maintaining peak physical health and resilient minds."
+category = "Business & Startups"
+tags = ["Startups", "Irish"]
+image = "entrepreneur-experiment"
+
+[[podcasts]]
+name = "The Knowledge Project"
+host = "Shane Parrish"
+url = "https://open.spotify.com/show/1VyK52NSZHaDKeMJzT4TSM"
+description = "Deep conversations with top performers that go beyond the usual advice to uncover timeless principles driving success."
+category = "Business & Startups"
+tags = ["Startups"]
+image = "knowledge-project"
+
+[[podcasts]]
+name = "The David McWilliams Podcast"
+host = "David McWilliams & John Davis"
+url = "https://open.spotify.com/show/6dzfsIlMVEdKVSfSd1mclr"
+description = "Economics made easy, uncomplicated, and accessible. Major economic and political issues affecting Ireland, Europe, and beyond."
+category = "Economics & Finance"
+tags = ["Irish", "Politics"]
+image = "david-mcwilliams"
+
+[[podcasts]]
+name = "Patrick Boyle On Finance"
+host = "Patrick Boyle"
+url = "https://open.spotify.com/show/7uhrWlDvxzy9hLoW0EYf0b"
+description = "Quantitative finance and financial history. Markets, derivatives, and investment tools from a hedge fund manager and professor."
+category = "Economics & Finance"
+tags = ["Irish"]
+image = "patrick-boyle"
+
+[[podcasts]]
+name = "The McKinsey Podcast"
+host = "McKinsey & Company"
+url = "https://open.spotify.com/show/4dyjRTP9xzEUPgleo6XjXI"
+description = "Inside the global consulting firm. Conversations on strategy, technology, leadership, and the role of business in society."
+category = "Economics & Finance"
+tags = ["Startups"]
+image = "mckinsey"
+
+[[podcasts]]
+name = "The Rest Is Politics"
+host = "Alastair Campbell & Rory Stewart"
+url = "https://open.spotify.com/show/1Ysx8g1Iw42gESAtegrFaH"
+description = "International news analysis and debate on global issues. The lost art of disagreeing agreeably, with insider perspectives."
+category = "News & Politics"
+tags = ["Politics"]
+image = "rest-is-politics"
+
+[[podcasts]]
+name = "The Rest Is Politics: US"
+host = "Anthony Scaramucci & Katty Kay"
+url = "https://open.spotify.com/show/1OY3nyGYqjIO4aWMW2feLy"
+description = "Secrets from inside the White House. In-depth discussions on key political events, policy changes, and the forces shaping America."
+category = "News & Politics"
+tags = ["Politics"]
+image = "rest-is-politics-us"
+
+[[podcasts]]
+name = "The News Agents"
+host = "Emily Maitlis, Jon Sopel & Lewis Goodall"
+url = "https://open.spotify.com/show/0zXLdM0YV1ukb8p8WzEG6D"
+description = "Award-winning daily news podcast. Astute analysis and explanation of the day's news, with scepticism and humour."
+category = "News & Politics"
+tags = ["Politics"]
+image = "news-agents"
+
+[[podcasts]]
+name = "The Indo Daily"
+host = "Irish Independent"
+url = "https://open.spotify.com/show/22ASAFSMgEyQE5liUVft4F"
+description = "In-depth, 20-minute daily stories covering Irish politics, international affairs, crime, business, and social issues."
+category = "News & Politics"
+tags = ["Irish", "Politics"]
+image = "indo-daily"
+
+[[podcasts]]
+name = "Pivot"
+host = "Kara Swisher & Scott Galloway"
+url = "https://open.spotify.com/show/4MU3RFGELZxPT9XHVwTNPR"
+description = "Sharp, unfiltered insights into the biggest stories in tech, business, and politics. Bold predictions and current events."
+category = "News & Politics"
+tags = ["Politics", "Startups", "AI"]
+image = "pivot"
+
+[[podcasts]]
+name = "In Our Time"
+host = "Misha Glenny"
+url = "https://open.spotify.com/show/17YfG23eMbfLBaDPqucgzZ"
+description = "History, religion, culture, science, and philosophy. Expert guests explore characters, events, and discoveries that shaped our world."
+category = "Culture, Science & Ideas"
+tags = ["Science"]
+image = "in-our-time"
+
+[[podcasts]]
+name = "Uncharted with Hannah Fry"
+host = "Hannah Fry"
+url = "https://open.spotify.com/show/6sDDn3GBixbf5AsjCLpK3q"
+description = "Thrilling journeys of data and discovery. Compelling human stories hidden within numerical patterns and graphs."
+category = "Culture, Science & Ideas"
+tags = ["Science"]
+image = "uncharted-hannah-fry"
+
+[[podcasts]]
+name = "The Louis Theroux Podcast"
+host = "Louis Theroux"
+url = "https://open.spotify.com/show/7LuQv400JFzzlJrOuMukRj"
+description = "In-depth and freewheeling conversations with fascinating figures from across the globe."
+category = "Culture, Science & Ideas"
+tags = ["Comedy"]
+image = "louis-theroux"
+
+[[podcasts]]
+name = "13 Minutes Presents: Artemis II"
+host = "BBC World Service"
+url = "https://open.spotify.com/show/36P6Xk2292DapFNerkRbDw"
+description = "The BBC's space podcast following the Artemis II mission. NASA's planned lunar mission with four astronauts aboard Orion."
+category = "Culture, Science & Ideas"
+tags = ["Science"]
+image = "artemis-ii"
+
+[[podcasts]]
+name = "The Blindboy Podcast"
+host = "Blindboy Boatclub"
+url = "https://open.spotify.com/show/7HinkS0WZqDuMXYh02EUY1"
+description = "Short fiction, interviews, and comedy. Autism, mental health, mythology, environmental issues, and cultural commentary."
+category = "Culture, Science & Ideas"
+tags = ["Irish", "Comedy"]
+image = "blindboy"
+
+[[podcasts]]
+name = "NotJustAds"
+host = "Marcus Sherwin"
+url = "https://open.spotify.com/show/76MZ8m2apKHJddLz6KylQR"
+description = "The creator economy for B2B. Real conversations with founders and CMOs who turned thought leadership into revenue."
+category = "Marketing"
+tags = []
+image = "notjustads"
+
+[[podcasts]]
+name = "Uncensored CMO"
+host = "Jon Evans"
+url = "https://open.spotify.com/show/035E3OR5r2U0r2W8eyHGZx"
+description = "The good, the bad, and the ugly truth about marketing theory and practice."
+category = "Marketing"
+tags = []
+image = "uncensored-cmo"
+
+[[podcasts]]
+name = "The Album Years"
+host = "Steven Wilson & Tim Bowness"
+url = "https://open.spotify.com/show/36ZT08Ho2hVrttzi7s3FQA"
+description = "Two musician friends discuss favourite albums from the golden album years. Each episode focuses on a randomly selected year."
+category = "Music"
+tags = ["Music"]
+image = "album-years"
+
+[[podcasts]]
+name = "Tim's Listening Party"
+host = "Tim Burgess"
+url = "https://open.spotify.com/show/1B1HtP6GsklgU5R0uCKU9v"
+description = "Celebrating albums alongside the artists who created them. Unique stories and exclusive insights from the world-famous Listening Party."
+category = "Music"
+tags = ["Music"]
+image = "tims-listening-party"
+
+[[podcasts]]
+name = "The Mario Rosenstock Podcast"
+host = "Mario Rosenstock"
+url = "https://open.spotify.com/show/66E0YfOO19950PCKhxuAZ5"
+description = "Comedy, rants about the state of the world, and interviews with a twist. Notable Irish personalities across entertainment and politics."
+category = "Comedy & Entertainment"
+tags = ["Comedy", "Irish"]
+image = "mario-rosenstock"
+
+[[podcasts]]
+name = "Brydon &"
+host = "Rob Brydon"
+url = "https://open.spotify.com/show/3OcTTmr7iulkTCddZv2k4x"
+description = "Conversational podcast featuring anecdotes and reminiscences with guests, hosted by Welsh comedian and actor Rob Brydon."
+category = "Comedy & Entertainment"
+tags = ["Comedy"]
+image = "brydon"
+
+[[podcasts]]
+name = "Crime World"
+host = "Nicola Tallant"
+url = "https://open.spotify.com/show/65o6FlP05o1ukHWUejIHlR"
+description = "Criminals, drugs, and the sins of the underworld. In-depth investigations and exclusive insights into organised crime."
+category = "True Crime"
+tags = ["Irish"]
+image = "crime-world"

@@ -46,6 +46,13 @@ nav a {
   text-decoration: none;
 }
 
+.icon-headphones {
+  width: 15px;
+  height: 15px;
+  vertical-align: -2px;
+  margin-right: 3px;
+}
+
 main.wrap {
   padding-top: 28px;
   padding-bottom: 50px;
@@ -245,6 +252,112 @@ h1, h2, h3 {
   .gallery img {
     height: 420px;
   }
+}
+
+.page-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.category-filter {
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.category-filter:focus {
+  outline: 1px solid var(--link);
+  border-color: var(--link);
+}
+
+.tag-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.tag-chip {
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: 13px;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.tag-chip:hover {
+  border-color: var(--muted);
+  color: var(--text);
+}
+
+.tag-chip.active {
+  border-color: var(--link);
+  color: var(--link);
+}
+
+.podcast-group h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 6px;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.podcast-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.podcast-list li {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: flex-start;
+}
+
+.podcast-thumb {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+}
+
+.podcast-info {
+  min-width: 0;
+}
+
+.podcast-host {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.podcast-host::before {
+  content: "\00b7 ";
+}
+
+.podcast-desc {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 2px 0 0;
+  line-height: 1.5;
 }
 
 .site-footer {

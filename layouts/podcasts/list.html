@@ -1,0 +1,81 @@
+{{ define "main" }}
+<div class="page-header-row">
+  <h1>{{ .Title }}</h1>
+  <select class="category-filter" aria-label="Filter by category">
+    <option value="all">All categories</option>
+    {{ range site.Data.podcasts.categoryOrder }}
+    <option value="{{ . }}">{{ . }}</option>
+    {{ end }}
+  </select>
+</div>
+
+<div class="tag-bar" role="group" aria-label="Filter by tag">
+  <button class="tag-chip active" data-tag="all">All</button>
+  {{ range site.Data.podcasts.tagOrder }}
+  <button class="tag-chip" data-tag="{{ . }}">{{ . }}</button>
+  {{ end }}
+</div>
+
+{{ $categories := site.Data.podcasts.categoryOrder }}
+{{ $podcasts := site.Data.podcasts.podcasts }}
+
+{{ range $cat := $categories }}
+  {{ $items := where $podcasts "category" $cat }}
+  {{ if $items }}
+  <section class="podcast-group" data-category="{{ $cat }}">
+    <h2>{{ $cat }}</h2>
+    <ul class="podcast-list">
+      {{ range $items }}
+      <li data-tags="{{ delimit .tags "," }}">
+        <img class="podcast-thumb" src="/images/podcasts/{{ .image }}.jpg" alt="" width="48" height="48" loading="lazy" />
+        <div class="podcast-info">
+          <div><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a> <span class="podcast-host">{{ .host }}</span></div>
+          <p class="podcast-desc">{{ .description }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+{{ end }}
+
+<script>
+(function() {
+  var chips = document.querySelectorAll('.tag-chip');
+  var select = document.querySelector('.category-filter');
+  var items = document.querySelectorAll('.podcast-list li');
+  var groups = document.querySelectorAll('.podcast-group');
+
+  function update() {
+    var tag = document.querySelector('.tag-chip.active').getAttribute('data-tag');
+    var cat = select.value;
+
+    groups.forEach(function(g) {
+      var catMatch = (cat === 'all' || g.getAttribute('data-category') === cat);
+      if (!catMatch) { g.style.display = 'none'; return; }
+
+      var lis = g.querySelectorAll('.podcast-list li');
+      var anyVisible = false;
+      lis.forEach(function(li) {
+        if (tag === 'all') { li.style.display = ''; anyVisible = true; return; }
+        var tags = li.getAttribute('data-tags').split(',');
+        var show = tags.indexOf(tag) !== -1;
+        li.style.display = show ? '' : 'none';
+        if (show) anyVisible = true;
+      });
+      g.style.display = anyVisible ? '' : 'none';
+    });
+  }
+
+  chips.forEach(function(chip) {
+    chip.addEventListener('click', function() {
+      chips.forEach(function(c) { c.classList.remove('active'); });
+      chip.classList.add('active');
+      update();
+    });
+  });
+
+  select.addEventListener('change', update);
+})();
+</script>
+{{ end }}
