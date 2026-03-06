@@ -5,5 +5,11 @@
     {{ if .Date }}<p class="meta">{{ .Date.Format "02 Jan 2006" }}</p>{{ end }}
   </header>
   <div class="content">{{ .Content }}</div>
+  {{ with .Params.song_title }}
+  <footer class="post-song">
+    <span class="post-song-note">&#127925;</span>
+    <a href="{{ $.Params.song_url }}">&#8220;{{ . }}&#8221; &#8211; {{ $.Params.song_artist }} ({{ $.Params.song_year }})</a>
+  </footer>
+  {{ end }}
 </article>
 {{ end }}

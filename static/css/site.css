@@ -119,6 +119,26 @@ h1, h2, h3 {
   color: var(--link);
 }
 
+.post-song {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.post-song a {
+  color: var(--muted);
+}
+
+.post-song a:hover {
+  color: var(--link);
+}
+
+.post-song-note {
+  margin-right: 0.35em;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
