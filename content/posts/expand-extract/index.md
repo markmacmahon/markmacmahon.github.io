@@ -15,9 +15,9 @@ description = 'How to build agent systems without drowning in possibility.'
   song_url = 'https://open.spotify.com/track/0KzAbK6nItSqNh8q70tb0K'
 +++
 
-On a rainy Thursday evening in Madrid, a hundred people packed into a lecture hall at IE University for [ClawCon](https://claw-con.com/) - the first European meetup for [OpenClaw](https://github.com/openclaw/openclaw), an open-source AI agent that didn't exist a month ago.
+On a rainy Thursday evening in Madrid, over a hundred and fifty people packed into a lecture hall at IE University for [ClawCon](https://claw-con.com/) - the first European meetup for [OpenClaw](https://github.com/openclaw/openclaw), an open-source AI agent that didn't exist a month ago.
 
-Three hundred and fifty people had signed up. The room held about a hundred. Standing room only.
+Three hundred and fifty people had signed up. Standing room only.
 
 ![ClawCon Madrid at IE University](openclaw-madrid.jpeg)
 *ClawCon Madrid, IE University, March 5, 2026.*
