@@ -3,7 +3,7 @@ title = 'Uno. Dos. Tres. Catorce.'
 date = 2026-03-03T01:34:18Z
 slug = 'uno-dos-tres-catorce'
 draft = false
-description = 'Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready'
+description = 'Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready.'
 [sitemap]
   priority = 0.8
 [params]
