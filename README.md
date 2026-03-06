@@ -150,4 +150,4 @@ For a custom domain, update `baseURL` in `config.toml` and add a `CNAME` file to
 
 ## License
 
-Content (posts, images) is copyrighted. Code (layouts, CSS, config) is free to use and adapt.
+Code (layouts, CSS, config) is MIT licensed. Content (posts, images, podcast data) is copyright Mark MacMahon, all rights reserved. See [LICENSE](LICENSE) for details.
