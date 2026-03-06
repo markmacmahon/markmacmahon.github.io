@@ -91,9 +91,9 @@ That’s a lesson many AI products still miss.
 
 ## Apparent Agency
 
-There was a phrase from the i-Chara history that stuck with me: “apparent agency.”
+i-Chara's founder, [Dr Kim Binsted](https://en.wikipedia.org/wiki/Kim_Binsted), had a phrase for what she was building: "apparent agency" - making characters appear to have goals, emotions and personalities. It was [documented in Japan Inc.](https://www.japaninc.com/article.php?articleID=485) as central to the business model.
 
-Characters didn’t need to be sentient. They needed to feel like they had intent.
+Characters didn't need to be sentient. They needed to feel like they had intent.
 
 Believable enough that the human brain did the rest.
 
