@@ -1,4 +1,4 @@
-baseURL = 'https://markmacmahon.github.io/mmm_website/'
+baseURL = 'https://markmacmahon.com/'
 languageCode = 'en-us'
 title = 'Mark MacMahon'
 enableRobotsTXT = true
