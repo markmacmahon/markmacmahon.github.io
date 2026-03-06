@@ -1,6 +1,9 @@
 {{ define "main" }}
 <section class="home-profile">
-  <img class="home-profile-photo" src="/images/mark-macmahon-profile-2026.jpg" alt="Mark MacMahon profile photo" />
+  <img class="home-profile-photo" src="/images/mark-macmahon-profile-2026.jpg" alt="Mark MacMahon profile photo" role="button" tabindex="0" aria-label="View full photo" />
+  <div class="lightbox" aria-hidden="true">
+    <img src="/images/mark-macmahon-profile-2026.jpg" alt="Mark MacMahon" />
+  </div>
   <h1>Mark MacMahon</h1>
   <p>CTO at <a href="https://luzia.com">Luzia</a>. Building <a href="https://contextrocket.com">ContextRocket</a>.<br />
   Three decades in software - Dublin, Washington DC, Brussels, Berlin, Madrid.<br />
@@ -26,4 +29,17 @@
     {{ end }}
   </ul>
 </section>
+
+<script>
+(function() {
+  var photo = document.querySelector('.home-profile-photo');
+  var lb = document.querySelector('.lightbox');
+  if (!photo || !lb) return;
+
+  photo.addEventListener('click', function() { lb.classList.add('open'); lb.setAttribute('aria-hidden', 'false'); });
+  photo.addEventListener('keydown', function(e) { if (e.key === 'Enter') photo.click(); });
+  lb.addEventListener('click', function() { lb.classList.remove('open'); lb.setAttribute('aria-hidden', 'true'); });
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') lb.classList.remove('open'); });
+})();
+</script>
 {{ end }}

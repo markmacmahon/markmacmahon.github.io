@@ -11,7 +11,7 @@ categoryOrder = [
   "True Crime",
 ]
 
-tagOrder = ["AI", "Engineering", "Product", "Startups", "Science", "Politics", "Irish", "Comedy", "Music"]
+tagOrder = ["AI", "Engineering", "Product", "Marketing", "Startups", "Science", "Politics", "Irish", "Comedy", "Music"]
 
 [[podcasts]]
 name = "Latent Space: The AI Engineer Podcast"
@@ -127,7 +127,7 @@ host = "Lenny Rachitsky"
 url = "https://open.spotify.com/show/2dR1MUZEHCOnz1LVfNac0j"
 description = "Conversations with world-class product leaders and growth experts. Concrete, actionable, tactical advice for building and growing products."
 category = "Product & Engineering"
-tags = ["Product"]
+tags = ["Product", "Marketing"]
 image = "lennys-podcast"
 
 [[podcasts]]
@@ -163,7 +163,7 @@ host = "Steven Bartlett"
 url = "https://open.spotify.com/show/7iQXmUT7XGuZSzAMjoNWlX"
 description = "Unfiltered conversations with the world's most fascinating CEOs, experts, therapists, and leaders."
 category = "Business & Startups"
-tags = ["Startups"]
+tags = ["Startups", "Marketing"]
 image = "diary-of-a-ceo"
 
 [[podcasts]]
@@ -190,7 +190,7 @@ host = "Sam Parr & Shaan Puri"
 url = "https://open.spotify.com/show/3mliji9352UAk3XnWElnDV"
 description = "Brainstorming new business ideas based on trends and opportunities. Occasional notable guests join ideation sessions."
 category = "Business & Startups"
-tags = ["Startups"]
+tags = ["Startups", "Marketing"]
 image = "my-first-million"
 
 [[podcasts]]
@@ -334,7 +334,7 @@ host = "Marcus Sherwin"
 url = "https://open.spotify.com/show/76MZ8m2apKHJddLz6KylQR"
 description = "The creator economy for B2B. Real conversations with founders and CMOs who turned thought leadership into revenue."
 category = "Marketing"
-tags = []
+tags = ["Marketing"]
 image = "notjustads"
 
 [[podcasts]]
@@ -343,7 +343,7 @@ host = "Jon Evans"
 url = "https://open.spotify.com/show/035E3OR5r2U0r2W8eyHGZx"
 description = "The good, the bad, and the ugly truth about marketing theory and practice."
 category = "Marketing"
-tags = []
+tags = ["Marketing"]
 image = "uncensored-cmo"
 
 [[podcasts]]

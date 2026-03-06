@@ -133,7 +133,30 @@ h1, h2, h3 {
   height: 112px;
   object-fit: cover;
   border-radius: 999px;
+  cursor: pointer;
   border: 1px solid var(--line);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: min(400px, 85vw);
+  max-height: 85vh;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
 .content img {
@@ -303,6 +326,27 @@ h1, h2, h3 {
 .tag-chip.active {
   border-color: var(--link);
   color: var(--link);
+}
+
+.podcast-search {
+  width: 100%;
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-top: 0.5rem;
+}
+
+.podcast-search:focus {
+  outline: 1px solid var(--link);
+  border-color: var(--link);
+}
+
+.podcast-search::placeholder {
+  color: var(--muted);
 }
 
 .podcast-group h2 {

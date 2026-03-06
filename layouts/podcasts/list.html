@@ -16,6 +16,8 @@
   {{ end }}
 </div>
 
+<input type="search" class="podcast-search" placeholder="Search podcasts..." aria-label="Search podcasts" />
+
 {{ $categories := site.Data.podcasts.categoryOrder }}
 {{ $podcasts := site.Data.podcasts.podcasts }}
 
@@ -26,7 +28,7 @@
     <h2>{{ $cat }}</h2>
     <ul class="podcast-list">
       {{ range $items }}
-      <li data-tags="{{ delimit .tags "," }}">
+      <li data-tags="{{ delimit .tags "," }}" data-search="{{ lower .name }} {{ lower .host }} {{ lower .description }} {{ lower .category }} {{ lower (delimit .tags " ") }}">
         <img class="podcast-thumb" src="/images/podcasts/{{ .image }}.jpg" alt="" width="48" height="48" loading="lazy" />
         <div class="podcast-info">
           <div><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a> <span class="podcast-host">{{ .host }}</span></div>
@@ -43,12 +45,33 @@
 (function() {
   var chips = document.querySelectorAll('.tag-chip');
   var select = document.querySelector('.category-filter');
-  var items = document.querySelectorAll('.podcast-list li');
+  var search = document.querySelector('.podcast-search');
   var groups = document.querySelectorAll('.podcast-group');
+
+  function matchesQuery(haystack, q) {
+    if (!q) return true;
+    var qWords = q.split(/\s+/);
+    var hWords = haystack.split(/\s+/);
+    for (var i = 0; i < qWords.length; i++) {
+      if (!qWords[i]) continue;
+      var found = false;
+      for (var j = 0; j < hWords.length; j++) {
+        if (hWords[j].indexOf(qWords[i]) === 0) { found = true; break; }
+      }
+      if (!found) {
+        for (var j = 0; j < hWords.length; j++) {
+          if (hWords[j].indexOf(qWords[i]) !== -1) { found = true; break; }
+        }
+      }
+      if (!found) return false;
+    }
+    return true;
+  }
 
   function update() {
     var tag = document.querySelector('.tag-chip.active').getAttribute('data-tag');
     var cat = select.value;
+    var q = search.value.toLowerCase().trim();
 
     groups.forEach(function(g) {
       var catMatch = (cat === 'all' || g.getAttribute('data-category') === cat);
@@ -57,9 +80,9 @@
       var lis = g.querySelectorAll('.podcast-list li');
       var anyVisible = false;
       lis.forEach(function(li) {
-        if (tag === 'all') { li.style.display = ''; anyVisible = true; return; }
-        var tags = li.getAttribute('data-tags').split(',');
-        var show = tags.indexOf(tag) !== -1;
+        var tagMatch = tag === 'all' || li.getAttribute('data-tags').split(',').indexOf(tag) !== -1;
+        var textMatch = matchesQuery(li.getAttribute('data-search'), q);
+        var show = tagMatch && textMatch;
         li.style.display = show ? '' : 'none';
         if (show) anyVisible = true;
       });
@@ -76,6 +99,7 @@
   });
 
   select.addEventListener('change', update);
+  search.addEventListener('input', update);
 })();
 </script>
 {{ end }}
