@@ -2,6 +2,7 @@ baseURL = 'https://markmacmahon.com/'
 languageCode = 'en-us'
 title = 'Mark MacMahon'
 enableRobotsTXT = false
+buildFuture = true
 
 [pagination]
   pagerSize = 10
