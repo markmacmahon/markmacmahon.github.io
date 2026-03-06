@@ -91,6 +91,8 @@ In a measurable way:
 
 That’s a lesson many AI products still miss.
 
+Twenty years later, Intercom [arrived at a version of the same idea](https://www.lennysnewsletter.com/p/how-intercom-rose-from-the-ashes-eoghan-mccabe) - that AI could be more human than humans.
+
 ## Apparent Agency
 
 i-Chara's founder, [Dr Kim Binsted](https://en.wikipedia.org/wiki/Kim_Binsted), had a phrase for what she was building: "apparent agency" - making characters appear to have goals, emotions and personalities. It was [documented in Japan Inc.](https://www.japaninc.com/article.php?articleID=485) as central to the business model.
