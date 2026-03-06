@@ -41,7 +41,7 @@ Every summer, the ritual began in July when the football fixtures were announced
 
 The trip itself was simple. Friday evening ferry from Dublin to Liverpool. Train across to Manchester. Match at Old Trafford. A quick pilgrimage through the Arndale Centre and Argos. Then back the same night - late ferry home, exhausted and happy.
 
-On one of those trips, before I was old enough to go myself, my older brother came home with something unexpected.
+On one of those trips, before I was old enough to go myself, my older brother Brian came home with something unexpected.
 
 A Sinclair Spectrum.
 
