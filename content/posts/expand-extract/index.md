@@ -12,5 +12,3 @@ description = 'How to build agent systems without drowning in possibility.'
   song_year = '1988'
   song_url = 'https://open.spotify.com/track/0KzAbK6nItSqNh8q70tb0K'
 +++
-
-How to build agent systems without drowning in possibility.

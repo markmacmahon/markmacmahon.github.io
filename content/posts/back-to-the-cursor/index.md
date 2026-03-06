@@ -3,9 +3,9 @@ title = 'Back to the Cursor'
 date = 2026-03-01T16:14:48Z
 slug = 'back-to-the-cursor'
 draft = false
+description = 'From the Sinclair Spectrum to AI agents - some patterns do not change.'
 [sitemap]
   priority = 0.8
-description = 'From the Sinclair Spectrum to AI agents - some patterns do not change.'
 [params]
   series_number = 1
   og_image = '/posts/back-to-the-cursor/sinclair-zx-spectrum-villena-1982.jpeg'
@@ -14,8 +14,6 @@ description = 'From the Sinclair Spectrum to AI agents - some patterns do not ch
   song_year = '1980'
   song_url = 'https://open.spotify.com/track/40lKv5fLpzPHV1YQ7nrfMg'
 +++
-
-From the Sinclair Spectrum to AI agents - some patterns do not change.
 
 I wasn’t expecting to see a Sinclair Spectrum on the wall of a startup office in rural Spain.
 

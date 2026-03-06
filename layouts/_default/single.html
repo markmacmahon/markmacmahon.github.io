@@ -1,11 +1,12 @@
 {{ define "main" }}
 <article>
-  <header>
+  <header class="post-header">
+    <p class="meta post-date">{{ if .Params.coming_soon }}Coming soon{{ else if .Date }}{{ .Date.Format "02 Jan 2006" }}{{ end }}</p>
     <h1>
       {{- with .Params.series_number }}<span class="series-num">{{ printf "%02d" . }}</span> {{ end -}}
       {{ .Title }}
     </h1>
-    <p class="meta">{{ if .Params.coming_soon }}Coming soon{{ else if .Date }}{{ .Date.Format "02 Jan 2006" }}{{ end }}</p>
+    {{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
   </header>
   <div class="content">{{ .Content }}</div>
   {{ with .Params.song_title }}

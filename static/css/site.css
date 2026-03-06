@@ -79,6 +79,31 @@ h1, h2, h3 {
   font-size: 14px;
 }
 
+.post-header {
+  position: relative;
+}
+
+.post-date {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .post-date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: var(--muted);
+  margin-top: -0.5rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+
 .home-profile {
   padding-bottom: 12px;
   border-bottom: 1px solid var(--line);

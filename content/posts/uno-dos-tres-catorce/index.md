@@ -3,9 +3,9 @@ title = 'Uno. Dos. Tres. Catorce.'
 date = 2026-03-03T01:34:18Z
 slug = 'uno-dos-tres-catorce'
 draft = false
+description = 'Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready'
 [sitemap]
   priority = 0.8
-description = 'Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready'
 [params]
   series_number = 2
   og_image = '/posts/uno-dos-tres-catorce/hannover-quay-old-studio-exterior.webp'
@@ -14,8 +14,6 @@ description = 'Hannover Quay, 2002-2004 - The Shape of Agents Before the World W
   song_year = '2004'
   song_url = 'https://open.spotify.com/track/1gVVSmhWjci8l9Vrsl6HaS'
 +++
-
-## Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready
 
 At Hannover Quay the docklands felt like they were inhaling.
 
