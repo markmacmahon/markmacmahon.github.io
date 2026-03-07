@@ -18,9 +18,7 @@ I was never really comfortable with the CTO title.
 
 Not because I couldn't do the job. But because the title means everything and nothing. Grey-haired executives in suits who haven't touched code in decades. Teenagers in Y Combinator batches building their first product. The most senior engineer at a fifty-person company. A head of engineering by another name. A tech lead with a fancier email signature. All CTOs.
 
-CTO in Germany is a particular flavour. The managing directors - Geschäftsführer - tend to come from McKinsey, BCG, or MBA programmes. Engineering backgrounds are rare at the top. Technology gets treated as a cost centre, not a profit centre. I've heard people call them insecure overachievers. Good luck trying to give somebody a pay rise if they've been there more than a year.
-
-The CTO role narrows to match: operational excellence, delivery oversight, risk containment. I can do all of that. But I've always been drawn to product. To design. To branding and growth. To the way marketing and engineering intersect when you're building something people actually want to use.
+The CTO role can narrow quickly depending on the company - operational excellence, delivery oversight, risk containment. I can do all of that. But I've always been drawn to product. To design. To branding and growth. To the way marketing and engineering intersect when you're building something people actually want to use.
 
 Depending on the company, I could equally be a CPO. My depth is technical, so I tend to land on the technology side. But product is probably the hardest role of them all when done well, and I have a deep appreciation for great product people who really know their craft.
 
