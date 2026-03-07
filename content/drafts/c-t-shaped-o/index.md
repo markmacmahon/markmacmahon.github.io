@@ -8,10 +8,10 @@ description = "Depth without breadth is a ceiling. Breadth without depth is a bl
   priority = 0.8
 [params]
   series_number = 5
-  song_title = 'Take Me Out'
-  song_artist = 'Franz Ferdinand'
-  song_year = '2004'
-  song_url = 'https://open.spotify.com/track/20I8RduZC2PWMWTDCZuuAN'
+  song_title = 'Place for Me'
+  song_artist = 'Kianja'
+  song_year = '2021'
+  song_url = 'https://open.spotify.com/track/6yyTqLWr7XgNbysq3a46Bg'
 +++
 
 I was never really comfortable with the CTO title.
