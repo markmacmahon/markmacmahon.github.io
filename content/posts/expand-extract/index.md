@@ -3,7 +3,7 @@ title = 'Expand. Extract.'
 date = 2026-03-06T10:00:00Z
 slug = 'expand-extract'
 draft = false
-description = 'How to build agent systems without drowning in possibility.'
+description = 'How to expand into AI without drowning in possibility.'
 [sitemap]
   priority = 0.8
 [params]
@@ -179,9 +179,3 @@ The teams that win this cycle will not be the teams that experimented most. They
 Expand widely. Extract decisively. Expand again.
 
 The cycle does not just reshape your codebase. It eventually reshapes your org chart.
-
-*Next in the series*: [F*** You, Gemini.](/posts/f-you-gemini/) - A year of AI-assisted coding, building ContextRocket.
-
-*Part 2 of this series*: [Uno. Dos. Tres. Catorce.](/posts/uno-dos-tres-catorce/) - The Shape of Agents Before the World Was Ready.
-
-*Part 1 of this series*: [Back to the Cursor](/posts/back-to-the-cursor/)

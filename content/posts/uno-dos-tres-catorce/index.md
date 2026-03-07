@@ -30,8 +30,7 @@ On the other: us, trying to encode it.
 
 I was working at Emuse Technologies. Emuse were building interactive digital TV experiences - the “red button” era - and had acquired a Japanese company called [i-Chara](https://i-chara.com) through their Tokyo branch (eMuse KK).
 
-![Old Hannover Quay studio exterior](hannover-quay-old-studio-exterior.webp)
-*Old Hannover Quay studio exterior.*
+{{< post-image src="hannover-quay-old-studio-exterior.webp" alt="Old Hannover Quay studio exterior" caption="Old Hannover Quay studio exterior." width="480px" >}}
 
 And that’s where the loop starts.
 
@@ -247,7 +246,3 @@ We just didn’t have the world it needed.
 And the real risk isn’t being early.
 
 It’s building the wrong thing.
-
-*Next in the series*: [Expand. Extract.](/posts/expand-extract/) - How to build agent systems without drowning in possibility.
-
-*Part 1 of this series*: [Back to the Cursor](/posts/back-to-the-cursor/)

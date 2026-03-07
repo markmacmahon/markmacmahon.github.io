@@ -1,0 +1,17 @@
+<figure class="post-image"{{ with .Get "width" }} style="max-width: {{ . }}"{{ end }}>
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" role="button" tabindex="0" aria-label="View full image" />
+  <div class="lightbox" aria-hidden="true">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" />
+  </div>
+  {{ with .Get "caption" }}<figcaption>{{ . | safeHTML }}</figcaption>{{ end }}
+</figure>
+<script>
+(function() {
+  var fig = document.currentScript.previousElementSibling;
+  var img = fig.querySelector('img');
+  var lb = fig.querySelector('.lightbox');
+  img.addEventListener('click', function() { lb.classList.add('open'); lb.setAttribute('aria-hidden', 'false'); });
+  img.addEventListener('keydown', function(e) { if (e.key === 'Enter') img.click(); });
+  lb.addEventListener('click', function() { lb.classList.remove('open'); lb.setAttribute('aria-hidden', 'true'); });
+})();
+</script>

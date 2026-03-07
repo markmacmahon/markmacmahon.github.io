@@ -55,7 +55,7 @@ nav a {
 
 main.wrap {
   padding-top: 28px;
-  padding-bottom: 50px;
+  padding-bottom: 24px;
 }
 
 a {
@@ -159,6 +159,50 @@ h1, h2, h3 {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
+blockquote {
+  margin: 2rem 0;
+  padding: 0 0 0 1.25rem;
+  border-left: 3px solid var(--line);
+  color: var(--muted);
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-size: 0.9em;
+}
+
+.post-image {
+  margin: 2rem 0;
+}
+
+.post-image > img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid var(--line);
+}
+
+.post-image .lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.content .series-links {
+  margin-top: 5rem;
+}
+
+.post-image figcaption {
+  font-style: italic;
+  color: var(--muted);
+  margin-top: 0.75rem;
+  font-size: 0.9em;
+  text-align: left !important;
+}
+
 .content img {
   max-width: 100%;
   height: auto;
@@ -186,9 +230,8 @@ h1, h2, h3 {
 }
 
 .post-song {
-  margin-top: 2.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
+  margin-top: 4rem;
+  padding-top: 0;
   font-size: 14px;
   color: var(--muted);
 }
@@ -221,7 +264,7 @@ h1, h2, h3 {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid var(--line);
   font-size: 15px;

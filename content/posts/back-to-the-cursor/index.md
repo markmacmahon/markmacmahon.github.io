@@ -61,6 +61,8 @@ But the real magic wasn’t the games.
 
 It was the manual.
 
+{{< post-image src="ZXSpectrumBASICProgramming.jpg" alt="ZX Spectrum BASIC Programming manual - orange sunset cover with spiral binding" caption="ZX Spectrum BASIC Programming manual." width="320px" >}}
+
 Pages of BASIC code you could type in yourself. Line by line. `10 PRINT "HELLO"`.
 
 Those little programs were my first experience of programming. Change a line. Run it. See what happens.
@@ -142,6 +144,4 @@ The obsession has come back in loops: first at home with the Spectrum, then in t
 
 One blinking cursor loop is closed. Another is open.
 
-![Manchester United family photo from 1985](manchester-united-family-photo-1985.jpg)
-
-> Friday evening, 16 November 1985: My first trip to Manchester. [United 0-0 Spurs](https://youtu.be/27lVhIm_wOA?si=epiMaxG98Z2zj_qX), 54,575 in Old Trafford. That's me in the bucket hat with my brothers Brian and Niall - I didn't know it yet, but it was rehearsal for a different kind of obsession with Manchester that involved the Stone Roses, the Happy Mondays and Oasis
+{{< post-image src="manchester-united-family-photo-1985.jpg" alt="Manchester United family photo from 1985" caption="Friday evening, 16 November 1985: My first trip to Manchester. <a href='https://youtu.be/27lVhIm_wOA?si=epiMaxG98Z2zj_qX'>United 0-0 Spurs</a>, 54,575 in Old Trafford. That's me in the bucket hat with my brothers Brian and Niall." width="480px" >}}
