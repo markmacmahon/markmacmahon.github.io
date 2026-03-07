@@ -8,7 +8,6 @@ description = 'A year of AI-assisted coding, building ContextRocket. The joy, th
   priority = 0.8
 [params]
   series_number = 4
-  coming_soon = true
   song_title = "Fool's Gold"
   song_artist = 'The Stone Roses'
   song_year = '1989'

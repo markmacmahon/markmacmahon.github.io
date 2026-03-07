@@ -1,6 +1,6 @@
 +++
 title = 'C "T-shaped" O'
-date = 2026-03-17T10:00:00Z
+date = 2026-03-14T10:00:00Z
 slug = 'c-t-shaped-o'
 draft = true
 description = "Depth without breadth is a ceiling. Breadth without depth is a bluff. You need both."

@@ -1,6 +1,6 @@
 +++
 title = 'Who Is Going to Keep the Lights On?'
-date = 2026-03-14T10:00:00Z
+date = 2026-03-17T10:00:00Z
 slug = 'who-is-going-to-keep-the-lights-on'
 draft = true
 description = "AI won't replace the need for mentorship. It makes it more urgent."

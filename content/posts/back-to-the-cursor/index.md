@@ -138,10 +138,10 @@ It would be easy to romanticise this moment. I won’t.
 
 But there’s something quietly fitting about building AI systems in a company that started in a small Spanish town and being reminded it began with a rubber keyboard and a blinking cursor.
 
-In the next post, [Uno. Dos. Tres. Catorce.](/posts/uno-dos-tres-catorce/), I'll go back to Hannover Quay in 2002-2004 - where I was working on a concept very close to what we're building at Luzia now, just before the technology was ready for it.
+In the next post, [Uno. Dos. Tres. Catorce.](/posts/uno-dos-tres-catorce/), I'll go back to Hanover Quay in 2002-2004 - where I was working on a concept very close to what we're building at Luzia now, just before the technology was ready for it.
 
 The obsession has come back in loops: first at home with the Spectrum, then in the labs as a student, and now with AI-assisted coding.
 
 One blinking cursor loop is closed. Another is open.
 
-{{< post-image src="manchester-united-family-photo-1985.jpg" alt="Manchester United family photo from 1985" caption="Friday evening, 16 November 1985: My first trip to Manchester. <a href='https://youtu.be/27lVhIm_wOA?si=epiMaxG98Z2zj_qX'>United 0-0 Spurs</a>, 54,575 in Old Trafford. That's me in the bucket hat with my brothers Brian and Niall - I didn't know it yet, but it was rehearsal for a different kind of obsession with Manchester that involved the Stone Roses, the Happy Mondays and Oasis." width="480px" >}}
+{{< post-image src="manchester-united-family-photo-1985.jpg" alt="Manchester United family photo from 1985" caption="Friday evening, 15 November 1985: My first trip to Manchester. <a href='https://youtu.be/27lVhIm_wOA?si=epiMaxG98Z2zj_qX'>United 0-0 Spurs</a>, 54,575 in Old Trafford. That's me in the bucket hat with my brothers Brian and Niall - I didn't know it yet, but it was rehearsal for a different kind of obsession with Manchester that involved the Stone Roses, the Happy Mondays and Oasis." width="480px" >}}
