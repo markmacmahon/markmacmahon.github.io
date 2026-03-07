@@ -25,8 +25,8 @@ Two decades later, living in Madrid, that Spanish count-in sounds less like nost
 
 Across the desk from me sat [Shay Healy](https://en.wikipedia.org/wiki/Shay_Healy) - broadcaster, writer, a real media presence. We’d talk. Occasionally go for a drink. Mostly he worked quietly, someone who understood tone and timing as craft.
 
-On one side of the office: embodied presence.  
-On the other: us, trying to encode it.
+On one side of the office: *embodied presence.*
+On the other: *us, trying to encode it.*
 
 I was working at Emuse Technologies. Emuse were building interactive digital TV experiences - the “red button” era - and had acquired a Japanese company called [i-Chara](https://i-chara.com) through their Tokyo branch (eMuse KK).
 
