@@ -9,10 +9,10 @@ description = "AI won't replace the need for mentorship. It makes it more urgent
 [params]
   series_number = 6
   og_image = '/posts/who-is-going-to-keep-the-lights-on/orbism-rat.png'
-  song_title = 'There Is a Light That Never Goes Out'
-  song_artist = 'The Smiths'
-  song_year = '1986'
-  song_url = 'https://open.spotify.com/track/0WQiDwKJclirSYG9v5tayI'
+  song_title = 'Things Can Only Get Better'
+  song_artist = 'D:Ream'
+  song_year = '1993'
+  song_url = 'https://open.spotify.com/track/5HmwYfynpGAjgrj4bp9eMy'
 +++
 
 Late one night in the basement of a Georgian building on Fitzwilliam Square in Dublin, myself and [Conor](https://www.linkedin.com/in/conor-mcguire-23354522/) were deep in code. The office was in the lower ground floor - beautiful building above, strip lighting and desks below. We were building something, heads down, when a rat came in under the front door and ran down the stairs. We nearly jumped out of our skins. It took one look at us, and bolted. More afraid of us than we were of it - but only just.
@@ -61,7 +61,7 @@ The company in the basement doesn't exist any more. The Dublin I knew in 1998 is
 
 At Orbism I was the one being mentored. In every team I've built since, I've been the one doing the mentoring.
 
-Some of the most exceptional people I've hired came in as graduates, working students, and interns. Not as a compromise. As a deliberate choice. I'd seen what Orbism had done with a room full of juniors and good mentors, and I wanted to replicate it. It worked. People who arrived as interns grew into engineers I'd trust with anything. Many of them ended up with better jobs and more job security than I ever had.
+Some of the most exceptional people I've hired came in as graduates, working students, and interns. Not as a compromise. As a deliberate choice. I'd seen what Orbism had done with a room full of juniors and good mentors, and I wanted to replicate it. It worked. People who arrived as interns grew into engineers I'd trust with anything.
 
 That's the full circle. The mentorship I received at Orbism didn't just shape my career. It shaped how I built teams.
 
