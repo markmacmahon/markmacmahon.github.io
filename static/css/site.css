@@ -302,6 +302,17 @@ blockquote cite {
   object-fit: cover;
   border-radius: 4px;
   border: 1px solid var(--line);
+  cursor: pointer;
+}
+
+.gallery .lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border: none;
+  cursor: default;
 }
 
 .gallery figcaption {

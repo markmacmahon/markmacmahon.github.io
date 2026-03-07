@@ -1,4 +1,17 @@
 <figure>
-  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" loading="lazy" />
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" loading="lazy" role="button" tabindex="0" aria-label="View full image" />
+  <div class="lightbox" aria-hidden="true">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" />
+  </div>
   <figcaption>{{ .Get "caption" }}</figcaption>
 </figure>
+<script>
+(function() {
+  var fig = document.currentScript.previousElementSibling;
+  var img = fig.querySelector(':scope > img');
+  var lb = fig.querySelector('.lightbox');
+  img.addEventListener('click', function(e) { e.stopPropagation(); lb.classList.add('open'); lb.setAttribute('aria-hidden', 'false'); });
+  img.addEventListener('keydown', function(e) { if (e.key === 'Enter') img.click(); });
+  lb.addEventListener('click', function() { lb.classList.remove('open'); lb.setAttribute('aria-hidden', 'true'); });
+})();
+</script>
