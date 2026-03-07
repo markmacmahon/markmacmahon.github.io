@@ -19,8 +19,7 @@ On a rainy Thursday evening in Madrid, over a hundred and fifty people packed in
 
 Three hundred and fifty people had signed up. Standing room only.
 
-![ClawCon Madrid at IE University](openclaw-madrid.jpeg)
-*ClawCon Madrid, IE University, March 5, 2026.*
+{{< post-image src="openclaw-madrid.jpeg" alt="ClawCon Madrid at IE University" caption="ClawCon Madrid, IE University, March 5, 2026." >}}
 
 I was there because of [Joe Haslam](https://www.ie.edu/university/about/faculty/joe-haslam/) - a larger-than-life Corkman at IE who has been a great help to me in settling in Madrid.
 Two months earlier he had invited me to speak to his MBA class about AI and product innovation. When ClawCon sold out, he got me in anyway.
@@ -41,7 +40,7 @@ The question is what you do with it.
 
 I think about it as expand and extract. It applies far beyond code.
 
-![The Expand-Extract Cycle](expand-extract.png)
+{{< post-image src="expand-extract.png" alt="The Expand-Extract Cycle" >}}
 
 **Expand**: explore possibilities. Test interaction models. Try things that might not work. Let complexity grow temporarily. This is where innovation happens.
 
@@ -71,7 +70,7 @@ When everything is possible, the hardest decision is not what to build. It is wh
 This is how organisations actually adopt AI.
 Not the conference version. The inside-the-building version.
 
-![AI Capability Staircase](ai-stairway.png)
+{{< post-image src="ai-stairway.png" alt="AI Capability Staircase" >}}
 
 It looks like a staircase:
 
@@ -112,8 +111,7 @@ OpenClaw arrived in early February 2026. Within Luzia, we set up a dedicated Sla
 
 A coordinator agent runs a daily standup. It hands off to the specialists. The growth agent proactively flags cohort metrics worth watching as Q1 winds down.
 
-![OpenClaw Slack setup at Luzia](open-claw-slack.png)
-*OpenClaw coordinator and growth agent running standup at Luzia.*
+{{< post-image src="open-claw-slack.png" alt="OpenClaw Slack setup at Luzia" caption="OpenClaw coordinator and growth agent running standup at Luzia." >}}
 
 We managed tool access deliberately: [Amplitude](https://amplitude.com/) for analytics, GitHub for code, Notion for docs, G Suite. We observed how teams interacted with agents, what questions they asked, and the quality of answers they received.
 
