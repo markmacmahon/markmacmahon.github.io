@@ -14,3 +14,5 @@ description = 'A year of AI-assisted coding, building ContextRocket. The joy, th
   song_year = '1989'
   song_url = 'https://open.spotify.com/track/3fqb4dIuuFpltgkyhI7cIL'
 +++
+
+Don't worry, my Google friends. I really like Gemini now.
