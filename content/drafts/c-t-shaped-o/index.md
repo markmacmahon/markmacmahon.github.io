@@ -20,9 +20,7 @@ Not because I couldn't do the job. But because the title means everything and no
 
 The CTO role can narrow quickly depending on the company - operational excellence, delivery oversight, risk containment. I can do all of that. But I've always been drawn to product. To design. To branding and growth. To the way marketing and engineering intersect when you're building something people actually want to use.
 
-Depending on the company, I could equally be a CPO. My depth is technical, so I tend to land on the technology side. But product is probably the hardest role of them all when done well, and I have a deep appreciation for great product people who really know their craft.
-
-I've also founded startups, taken risks that most career CTOs wouldn't, and built things from nothing with no safety net. That doesn't fit neatly into any C-suite acronym either. At some point you start rearranging the letters. CTPO. CPTO. C-3PO. None of them fit, which is sort of the point.
+I've also founded startups, taken risks that most career CTOs wouldn't, and built things from nothing with no safety net. I can do technology. I can do product. I know enough about brand, design, and growth to be dangerous. That combination doesn't fit neatly into any C-suite acronym. At some point you start rearranging the letters. CTPO. CPTO. C-3PO. None of them fit, which is sort of the point.
 
 ## T-Shaped
 
