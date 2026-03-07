@@ -54,6 +54,8 @@ I've been pushed out a couple of times in my career. Each time, it exposed somet
 
 When the role disappears, you have to ask a harder question: if I'm not "CTO", then what am I?
 
+Each time, the answer was the same. Build something. [ContextRocket](/posts/f-you-gemini/) came out of one of those moments - a solo founder with no funding, no safety net, and no job title at all.
+
 You can't just be broad. Breadth without depth is a bluff - opinions about everything, ability to push nothing forward. That person has perspective but no leverage.
 
 And you can't just be deep. Depth without breadth is a ceiling. The brilliant specialist who can't see how their work connects to the product, the market, the user.
