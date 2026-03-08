@@ -57,6 +57,8 @@ In March 2025, I started building [ContextRocket](/posts/contextrocket/) - a pla
 
 Seven months of daily coding with [Cursor](https://cursor.com/), [Claude](https://claude.ai/), and [Gemini](https://gemini.google.com/) - different tools in different terminal windows, running simultaneously on the same monorepo. Working alone, I could do this without the Git-based coordination that teams need. It was an early, scrappy version of multi-agent coding before standardised flows existed. Six months later, these patterns would become normal. I was hitting all the problems first.
 
+{{< post-video src="watching-the-agents-work-loop.mp4" poster="watching-the-agents-work-poster.jpg" alt="Multiple AI agents coding simultaneously across terminal windows in Berlin" caption="Berlin, July 2025. Multiple agents running independently on the same monorepo. I could safely go to the gym and put the agents to work." width="560px" >}}
+
 What I learned is that trust with AI tools is not a setting you configure. It is judgement you earn through repeated verification. Each tool earns or loses credibility through specific failures and recoveries, and the only way to build that intuition is to ship something real with them. No memo or slide deck transfers it.
 
 Cursor became reliable - though I eventually preferred working on the command line. More control. More memory efficient. Easier to kill tasks when they hung. Claude built trust over time. Gemini was brilliant at thinking and terrible at doing.
