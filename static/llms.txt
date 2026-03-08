@@ -1,31 +1,64 @@
 # Mark MacMahon
 
-> CTO at Luzia. Building ContextRocket. Three decades in software - Dublin, Washington DC, Brussels, Berlin, Madrid. Writing about AI, agents, architecture, and leadership.
+> CTO and technology leader based in Madrid. Currently CTO at Luzia, a consumer AI company with 45M+ users. Founder of ContextRocket, an AI platform for brand representation across large language models. Three decades in software across Dublin, Washington DC, Brussels, Berlin, and Madrid. Writing about AI, agents, architecture, leadership, and the human side of building with machines.
 
-This is a personal essay series. Posts are numbered and meant to be read in sequence, though each stands alone.
+Mark MacMahon is an Irish technology leader who grew up in Sutton, Dublin, the eighth of nine children. He studied computer applications at Dublin City University starting in 1994. His career spans identity systems at Daon, mobile platforms at Nokia, search and marketplaces at heycar and FLOYT/billiger-mietwagen.de, and consumer AI at Luzia. He was an early adopter and minor contributor to the Spring Framework in its Interface21 days.
+
+In 2025, he built ContextRocket solo using AI-assisted coding - working daily with Cursor, Claude, and Gemini simultaneously on the same monorepo. ContextRocket addresses how brands are represented across LLMs: context management, retrieval quality, evaluation discipline, and representation control across probabilistic interfaces. The product covers SEO, AEO (Answer Engine Optimisation), and GEO (Generative Engine Optimisation).
+
+He joined Luzia in November 2025 as CTO, relocating from Berlin to Madrid. At Luzia, he leads a team of fourteen engineers, introducing AI-assisted coding practices and running agentic experiments with OpenClaw, Claude Code, and Codex.
 
 ## Posts
 
-- [01 Back to the Cursor](https://markmacmahon.com/posts/back-to-the-cursor/): From the Sinclair Spectrum to AI agents - some patterns do not change.
-- [02 Uno. Dos. Tres. Catorce.](https://markmacmahon.com/posts/uno-dos-tres-catorce/): Hannover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready.
-- [03 Expand. Extract.](https://markmacmahon.com/posts/expand-extract/): How to build agent systems without drowning in possibility.
+This is a personal essay series. Posts are numbered and meant to be read in sequence, though each stands alone. The series is described as "more memoir than manual."
+
+- [01 Back to the Cursor](https://markmacmahon.com/posts/back-to-the-cursor/): Origin story. A Sinclair ZX Spectrum on the wall of Luzia's office in Villena, Spain connects to growing up in Dublin - ferry trips to Manchester, the ZX Spectrum manual, late nights coding C++ at DCU, and a career that keeps returning to the blinking cursor. The bottleneck shifted from typing to thinking.
+- [02 Uno. Dos. Tres. Catorce.](https://markmacmahon.com/posts/uno-dos-tres-catorce/): Hanover Quay, Dublin, 2002-2004. Working at Emuse Technologies on i-Chara, a Japanese personal agent system built during the i-mode era. Apparent agency, personality-driven interfaces, privacy by design. U2 recording next door. The direct conceptual link between i-Chara in 2003 and what Luzia is building in 2026. Includes reconstructed i-Chara archive at i-chara.com.
+- [03 Expand. Extract.](https://markmacmahon.com/posts/expand-extract/): Operating framework for AI adoption. The expand-extract cycle as discipline, not slogan. Introduces the AI Capability Staircase (five stages from ad-hoc personal AI to AI learning organisation). Covers Luzia's OpenClaw experiment, the coordinator hallucination, character lifecycle POC, and token budget management with Pensero. References Dan North's Spike and Stabilise pattern.
+- [04 F*** You, Gemini.](https://markmacmahon.com/posts/f-you-gemini/): What a year of AI-assisted coding taught Mark about trust, discipline, and tool relationships. The vicious circle (agents fixing tests and code simultaneously with no ground truth). Plamasing (Irish word for insincere flattery from AI agents). Token economics. The mocking problem. Gallery of 24 real agent incident screenshots from April-October 2025. Gemini's redemption through Antigravity for frontend work. The scar tissue is the credential.
+- [05 ContextRocket](https://markmacmahon.com/posts/contextrocket/): The product story. From CTO at FLOYT/billiger-mietwagen.de through ProSiebenSat.1 divestiture, to Guidestone Ventures advisory, to building ContextRocket solo in Berlin. Market saturation timeline: The Hustle naming AEO (March 2025), PEEC.ai competitor (May 2025), Greg Isenberg vibe-coding an AEO system live on My First Million podcast (May 30, 2025), Harry Stebbings $5M investment in PEEC.ai (July 2025). Sunday runs in Berlin with Nokia Maps alumni. Future direction: personal branding, tone of voice, Semrush integration, audio/video with Google Cloud.
+- [06 ClawCon Madrid](https://markmacmahon.com/posts/clawcon-madrid/): ClawCon event at IE University, Madrid. 350 signups, 150 capacity, standing room only. OpenClaw adoption, data sovereignty, governance tooling from ClawSight. Connected to the Madrid tech scene through Joe Haslam at IE University. Panel at Product People x Clarity AI event. The energy in Madrid.
+- [07 C "T-shaped" O](https://markmacmahon.com/posts/c-t-shaped-o/): Why the CTO title never quite fit. CTO as the most overloaded title in tech. T-shaped skills: deep in technology, broad across product, design, brand, and growth. Four senses (product sense, design taste, marketing sense, engineering sense). Failure modes when teams are deep but narrow. T-shaped team design. The convergence: AI makes design production accessible to everyone, but design leadership becomes more urgent, not less. AI raises the floor of breadth and makes depth more valuable.
+- [08 Variance](https://markmacmahon.com/posts/variance/): Biometric false positives at Daon in the mid-2000s. The deterministic assumption - treating probabilistic output as certain. Dublin poker scene during the Celtic Tiger: Late Night Poker on Channel 4, Merrion Casino, World Series of Poker 2005, bad beat against Nick Leeson. Poker as a framework for understanding AI coding variance. Tokens and chips. Solvers and multi-agent architecture. The deterministic line: using AI to build products vs using AI in products. The eval layer and model switching discipline.
 
 ## Key Themes
 
-- Personal agents outperform generic assistants because personality changes behaviour
-- Privacy must be architectural, not bolted on
-- Friction shapes what gets built - constraint is not the enemy, it is the design surface
-- The bottleneck moved from typing to thinking
-- Expand widely, extract decisively - operating discipline for building agent systems
+- The bottleneck in software has shifted from typing to thinking. Intent is now the real constraint.
+- Personal agents outperform generic assistants because personality changes behaviour - a lesson from i-Chara in 2003 that applies directly to consumer AI in 2026.
+- Privacy must be architectural, not bolted on. This was true for i-Chara's mediated disclosure and remains true for modern agent systems.
+- Trust with AI tools is earned through repeated verification, not configured. Each tool earns or loses credibility through specific failures and recoveries.
+- The vicious circle: never let an AI agent modify tests and code in the same change. Separate the concerns. Hold one side still.
+- Expand widely, extract decisively. Most teams fail by under-expanding (calling it focus) or over-expanding (calling it innovation). Both are avoidance.
+- The AI Capability Staircase has five sequential stages. Skipping stages is the elevator illusion.
+- Know the deterministic line: use AI to build deterministic solutions faster, then remove it from production. Only use LLMs at runtime where non-deterministic reasoning is genuinely required.
+- T-shaped skills - deep in one discipline, broad across many - have never been more important. AI raises the floor of breadth and makes depth more valuable simultaneously.
+- Variance is real. You can make the correct decision and still lose. The discipline is building systems that absorb variance, not avoiding it.
+- The scar tissue is the credential. Leaders who have not built with AI tools make worse decisions about deploying them.
 
-## About the Author
+## Professional Background
 
-Mark MacMahon is CTO at Luzia (consumer AI, 45M+ users) and solo founder of ContextRocket (AI platform for search visibility and brand positioning). Previously CTO at FLOYT, VP Engineering at iApps/Adevinta, and engineering leadership roles across Dublin, Washington DC, Brussels, Berlin, and Madrid. Nearly 30 years in software across identity systems, search, mobile, and AI.
+- CTO at Luzia (2025-present) - consumer AI, 45M+ users, Madrid
+- Founder of ContextRocket (2025) - AI platform for brand representation across LLMs
+- Technology advisory at Guidestone Ventures - due diligence on portfolio companies
+- CTO at FLOYT Mobility / billiger-mietwagen.de - Germany's largest car rental comparison, ProSiebenSat.1 group
+- VP Engineering at iApps / Adevinta - marketplace technology
+- Engineering leadership at heycar - automotive marketplace, SEO and growth
+- Nokia - mobile platforms, maps, location services (Berlin, from 2009)
+- Daon - biometric middleware, identity systems (Dublin/Washington DC)
+- Emuse Technologies - i-Chara personal agent system, interactive digital TV (Dublin, 2002-2004)
+- Dublin City University - Computer Applications (1994)
 
 ## Links
 
-- Website: https://markmacmahon.com
-- LinkedIn: https://www.linkedin.com/in/markmacmahon/
-- X: https://x.com/markmacmahon/
-- ContextRocket: https://contextrocket.com
-- Luzia: https://luzia.com
+- [Website](https://markmacmahon.com)
+- [LinkedIn](https://www.linkedin.com/in/markmacmahon/)
+- [X / Twitter](https://x.com/markmacmahon/)
+- [Instagram](https://www.instagram.com/markmacmahon/)
+- [ContextRocket](https://contextrocket.com)
+- [Luzia](https://luzia.com)
+- [i-Chara Archive](https://i-chara.com)
+
+## Optional
+
+- [Podcasts](https://markmacmahon.com/podcasts/): Curated podcast collection on AI, product, and technology leadership.
+- [RSS Feed](https://markmacmahon.com/index.xml): Full-content RSS feed for all posts.

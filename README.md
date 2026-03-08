@@ -191,6 +191,21 @@ Note: outbound-click enhanced measurement and `external_link_click` can both be 
 ./scripts/verify-before-push.sh
 ```
 
+## Pre-publish checklist
+
+Run through this before pushing new or updated posts:
+
+- [ ] `hugo server --buildFuture` - site builds without errors
+- [ ] New post appears correctly at its URL
+- [ ] Next/previous post links are correct across the series
+- [ ] Images load and are reasonably sized (`find content/posts -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" \) -size +1500k`)
+- [ ] No em dashes (`./scripts/check-no-emdash.sh`)
+- [ ] `static/llms.txt` updated with new post entry, description, and any new themes
+- [ ] `hugo` build completes, then check `public/sitemap.xml` includes new post with correct URL and priority
+- [ ] `coming_soon` placeholder exists for the next unpublished post
+- [ ] `static/robots.txt` sitemap URL is correct
+- [ ] No drafts section appearing in sitemap (`grep drafts public/sitemap.xml` should return nothing)
+
 ## Deploy
 
 Push to `main` to trigger the GitHub Actions deploy to GitHub Pages.

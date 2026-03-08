@@ -21,7 +21,7 @@ Then [ProSiebenSat.1](https://www.prosiebensat1.com/), under pressure from the [
 
 That led me to [Guidestone Ventures](https://guidestone.ventures/), doing due diligence on their portfolio companies and technology advisory. During that work I started using AI-assisted coding - reverse-engineering startup claims, modelling out architectures, stress-testing technical assumptions. For the first time, I could move from idea to technical validation without assembling a team.
 
-That was the spark. I had a strong SEO and growth background from marketplaces like [heycar](https://hey.car/) and [billiger-mietwagen.de](https://www.billiger-mietwagen.de/), and had spent a lot of time with marketing platforms like [Braze](https://www.braze.com/) and [HubSpot](https://www.hubspot.com/). AI-assisted coding meant I could build at a speed that made going solo viable. I spotted a gap in how brands were represented across LLMs, and the timing felt right to go out on my own.
+That was the spark. I had a strong SEO and growth background from marketplaces like [heycar](https://hey.car/) and [billiger-mietwagen.de](https://www.billiger-mietwagen.de/), and had spent a lot of time with marketing platforms like [Braze](https://www.braze.com/) and [HubSpot](https://www.hubspot.com/). [AI-assisted coding](/posts/f-you-gemini/) meant I could build at a speed that made going solo viable. I spotted a gap in how brands were represented across LLMs, and the timing felt right to go out on my own.
 
 I did not start with a grand plan. SEO was simply the first useful concept to test - understanding how LLMs interact with brand content in practice. From there I narrowed into what became AEO: effectively an extension of SEO for model-mediated interfaces.
 
