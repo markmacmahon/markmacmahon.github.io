@@ -1,0 +1,28 @@
+<div class="image-pair">
+  <figure>
+    <img src="{{ .Get "src1" }}" alt="{{ .Get "alt1" }}" role="button" tabindex="0" aria-label="View full image" />
+    <div class="lightbox" aria-hidden="true">
+      <img src="{{ .Get "src1" }}" alt="{{ .Get "alt1" }}" />
+    </div>
+    {{ with .Get "caption1" }}<figcaption>{{ . | safeHTML }}</figcaption>{{ end }}
+  </figure>
+  <figure>
+    <img src="{{ .Get "src2" }}" alt="{{ .Get "alt2" }}" role="button" tabindex="0" aria-label="View full image" />
+    <div class="lightbox" aria-hidden="true">
+      <img src="{{ .Get "src2" }}" alt="{{ .Get "alt2" }}" />
+    </div>
+    {{ with .Get "caption2" }}<figcaption>{{ . | safeHTML }}</figcaption>{{ end }}
+  </figure>
+</div>
+<script>
+(function() {
+  var pairs = document.currentScript.previousElementSibling.querySelectorAll('figure');
+  pairs.forEach(function(fig) {
+    var img = fig.querySelector(':scope > img');
+    var lb = fig.querySelector('.lightbox');
+    img.addEventListener('click', function() { lb.classList.add('open'); lb.setAttribute('aria-hidden', 'false'); });
+    img.addEventListener('keydown', function(e) { if (e.key === 'Enter') img.click(); });
+    lb.addEventListener('click', function() { lb.classList.remove('open'); lb.setAttribute('aria-hidden', 'true'); });
+  });
+})();
+</script>

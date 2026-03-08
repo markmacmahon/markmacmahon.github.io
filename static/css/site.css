@@ -203,6 +203,40 @@ blockquote cite {
   text-align: left !important;
 }
 
+.image-pair {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  .image-pair {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.image-pair figure {
+  margin: 0;
+}
+
+.image-pair figure > img {
+  height: 200px;
+  width: auto;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid var(--line);
+}
+
+.image-pair figcaption {
+  font-style: italic;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
 .post-video {
   margin: 2rem 0;
 }

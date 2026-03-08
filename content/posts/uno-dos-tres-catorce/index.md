@@ -177,7 +177,9 @@ To be precise: this is conceptual continuity, not code lineage.
 
 What it was trying to build maps closely onto what we’re building today - just with modern machinery.
 
-At [Luzia](https://luzia.com), we're not trying to build a universal Q&A machine.
+{{< image-pair src1="ichara-characters.png" alt1="i-Chara pixel characters from the i-mode era, 2003" caption1="i-Chara, 2003. Characters adapted to carry<br>coupons, gifts, and introductions for the user." src2="luzia-avatar.png" alt2="Luzia AI avatar, 2026" caption2="Luzia, 2026. Same thesis, modern machinery." >}}
+
+At [Luzia](https://luzia.com), we’re not trying to build a universal Q&A machine.
 
 Look at the parallels:
 
