@@ -99,9 +99,11 @@ The limits were the forcing function for multi-agent coding. When one tool hit i
 
 What surprised me was how low the costs were relative to what I was shipping. Two hundred euros a month for an engineering team that never slept. The economics were absurd - even accounting for the frustration.
 
+## Top 1% of Cursor Users in Berlin
+
 {{< post-image src="cursor-top-1-percent.png" alt="Email from Cursor showing Mark is in the top 1% of users in Berlin" caption="Top 1% of Cursor users in Berlin. Hard-won." width="480px" >}}
 
-I was genuinely proud of that email. I had jumped back into hardcore development after years as a CTO - not dabbling, not reviewing pull requests, but building a product end to end. Making the top 1% in Berlin meant the hours and the intensity were real.
+When that email landed, it stopped me. I had jumped back into hardcore development after years as a CTO - not dabbling, not reviewing pull requests, but building a product end to end. Making the top 1% of Cursor users in Berlin meant the hours and the intensity were real. It was proof that I had genuinely come back to the code.
 
 ## The Mocking Problem
 
