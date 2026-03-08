@@ -27,7 +27,7 @@ Because extraction discipline is weak.
 Half-baked prototypes create false confidence.
 They look convincing until they meet production reality: messy architecture, missing tests, vague requirements, unclear ownership, real users, real cost.
 
-I learned this directly during long solo months building ContextRocket with agents.
+I learned this directly during long solo months [building ContextRocket with agents](/posts/f-you-gemini/).
 Bad architecture surfaced quickly.
 Vague thinking got punished.
 Impatience produced hallucinations.
@@ -43,7 +43,7 @@ I joined at the end of November 2025. My arrival gave [Alvaro](https://higes.sub
 
 While delivering the January plan, agentic coding with Claude Code, Codex, and agent teams opened possibilities we had not foreseen, and Alvaro and I developed two new products while the roadmap continued in motion.
 
-I also brought in hard-earned habits from the previous year building ContextRocket with agents: explicit prompting discipline, tighter verification loops, clearer code boundaries, and tool-specific playbooks. We applied those patterns at team level to make the engineering organisation more AI-driven, not just individual developers.
+I also brought in hard-earned habits from the previous year [building ContextRocket](/posts/contextrocket/) with agents: explicit prompting discipline, tighter verification loops, clearer code boundaries, and tool-specific playbooks. We applied those patterns at team level to make the engineering organisation more AI-driven, not just individual developers.
 
 With the OpenClaw hype in early February, it was natural for us to test it quickly in a real workflow, also because it was close to capabilities we wanted to build at Luzia.
 

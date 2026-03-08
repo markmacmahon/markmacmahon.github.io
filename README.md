@@ -68,6 +68,22 @@ Your content here in markdown.
 - Add `coming_soon = true` under `[params]` for teaser posts (shows "Coming soon" instead of a date)
 - Drop images in the same folder as `index.md` and reference them in markdown or use the gallery shortcode
 
+### Image size guidance
+
+Keep post media consistent and lightweight:
+- Preferred display width: 1200-1600px for landscape, 900-1200px for portrait
+- Hero/social (`og_image`) targets: 1200x630 where practical
+- Target file sizes:
+  - standard post images: <= 500KB
+  - exceptional/detail-heavy images: <= 1.5MB
+  - looping media: prefer short MP4 loops over GIF where possible
+
+Quick oversized-image check:
+
+```bash
+find content/posts -type f \\( -name \"*.jpg\" -o -name \"*.jpeg\" -o -name \"*.png\" -o -name \"*.webp\" -o -name \"*.gif\" \\) -size +1500k
+```
+
 ### Image gallery
 
 Use the built-in gallery shortcode for horizontal scroll galleries:
@@ -77,6 +93,20 @@ Use the built-in gallery shortcode for horizontal scroll galleries:
 {{</* gallery-item src="photo1.jpg" alt="Description" caption="Caption text" */>}}
 {{</* gallery-item src="photo2.jpg" alt="Description" caption="Caption text" */>}}
 {{</* /gallery */>}}
+```
+
+### Looping video shortcode
+
+Use the built-in `post-video` shortcode for lightweight loop clips:
+
+```markdown
+{{</* post-video
+  src=\"watching-the-agents-work-loop.mp4\"
+  poster=\"watching-the-agents-work-poster.jpg\"
+  alt=\"Agents coding on multiple screens\"
+  caption=\"Berlin, July 2025. Multi-agent coding setup running independently.\"
+  width=\"480px\"
+*/>}}
 ```
 
 ### Social sharing images
@@ -132,6 +162,25 @@ static/
 - **Responsive**: Mobile-first, no JavaScript required (except analytics)
 - **No dependencies**: No theme, no npm, no build tools beyond Hugo
 
+## Analytics (GA4)
+
+GA4 is configured in `layouts/_default/baseof.html`.
+
+This site sends:
+- default GA4 events/pageviews
+- custom `external_link_click` events with:
+  - `link_url`
+  - `link_domain`
+  - `link_text`
+  - `source_page`
+
+GA4 setup reminder:
+1. In GA4, go to **Admin -> Data Streams -> Web stream -> Enhanced measurement**.
+2. Make sure **Outbound clicks** is enabled.
+3. Verify events in **Reports -> Realtime** or **DebugView** while clicking an external link.
+
+Note: outbound-click enhanced measurement and `external_link_click` can both be useful. Use the custom event for cleaner reporting.
+
 ## Content checks
 
 ```bash
@@ -147,6 +196,17 @@ static/
 Push to `main` to trigger the GitHub Actions deploy to GitHub Pages.
 
 For a custom domain, update `baseURL` in `config.toml` and add a `CNAME` file to `static/`.
+
+### Sitemap maintenance
+
+`/sitemap.xml` is generated automatically by Hugo on build.
+
+Keep it correct by:
+1. Keeping `baseURL` correct in `config.toml`.
+2. Setting `draft = false` for published posts.
+3. Using per-page `[sitemap]` priority only when you need to override defaults.
+4. Ensuring `static/robots.txt` points to the correct sitemap URL for the domain.
+5. Spot-checking `https://<domain>/sitemap.xml` after deploy.
 
 ## License
 
