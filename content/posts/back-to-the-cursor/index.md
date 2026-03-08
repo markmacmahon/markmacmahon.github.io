@@ -55,7 +55,13 @@ It also connected to the television - but instead of paddles, it gave you a blin
 
 Games loaded from cassette tapes. You’d press play and hear that strange analogue screech - minutes of electronic noise while you waited to see if it would work.
 
-*Jetpac*. *Manic Miner*.
+*Jetpac*. *Manic Miner*. *Daley Thompson’s Decathlon*.
+
+{{< gallery >}}
+{{< gallery-item src="jetpac.png" alt="Jetpac by Ultimate Play the Game for the ZX Spectrum" caption="Jetpac (1983) - Ultimate Play the Game. Assemble your rocket, collect fuel, avoid aliens." >}}
+{{< gallery-item src="manic-miner.jpg" alt="Manic Miner gameplay on the ZX Spectrum" caption="Manic Miner (1983) - Matthew Smith’s platformer. Twenty caverns of pixel-perfect timing." >}}
+{{< gallery-item src="daley-thompson.jpg" alt="Daley Thompson’s Decathlon loading screen for the ZX Spectrum" caption="Daley Thompson’s Decathlon (1984) - Ocean Software. The game that destroyed joysticks and keyboards alike." >}}
+{{< /gallery >}}
 
 But the real magic wasn’t the games.
 
