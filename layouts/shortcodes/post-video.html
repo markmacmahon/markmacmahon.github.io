@@ -1,0 +1,13 @@
+<figure class="post-video"{{ with .Get "width" }} style="max-width: {{ . }}"{{ end }}>
+  <video
+    src="{{ .Get "src" }}"
+    {{ with .Get "poster" }}poster="{{ . }}"{{ end }}
+    playsinline
+    muted
+    loop
+    autoplay
+    preload="metadata"
+    aria-label="{{ .Get "alt" }}">
+  </video>
+  {{ with .Get "caption" }}<figcaption>{{ . | safeHTML }}</figcaption>{{ end }}
+</figure>

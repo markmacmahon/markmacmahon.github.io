@@ -101,6 +101,38 @@
       gtag('js', new Date());
       gtag('config', 'G-TXR15D0457');
     </script>
+    <script>
+      document.addEventListener('click', function (event) {
+        var link = event.target.closest('a[href]');
+        if (!link) return;
+
+        var href = link.getAttribute('href');
+        if (!href) return;
+
+        // Ignore in-page anchors and non-http protocols.
+        if (href.charAt(0) === '#') return;
+        if (/^(mailto:|tel:|javascript:)/i.test(href)) return;
+
+        var url;
+        try {
+          url = new URL(href, window.location.href);
+        } catch (e) {
+          return;
+        }
+
+        // Track only true external links.
+        if (url.hostname === window.location.hostname) return;
+        if (typeof gtag !== 'function') return;
+
+        gtag('event', 'external_link_click', {
+          link_url: url.href,
+          link_domain: url.hostname,
+          link_text: (link.textContent || '').trim().slice(0, 140),
+          source_page: window.location.pathname,
+          transport_type: 'beacon'
+        });
+      });
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -116,7 +148,7 @@
       {{ block "main" . }}{{ end }}
     </main>
     <footer class="site-footer wrap">
-      <p>© {{ now.Year }} Mark MacMahon</p>
+      <p>© {{ now.Year }} Mark MacMahon · Built with <a href="https://contextrocket.com" target="_blank" rel="noopener noreferrer">ContextRocket</a></p>
     </footer>
   </body>
 </html>

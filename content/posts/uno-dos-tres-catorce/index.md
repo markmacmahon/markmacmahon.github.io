@@ -1,6 +1,6 @@
 +++
 title = 'Uno. Dos. Tres. Catorce.'
-date = 2026-03-03T01:34:18Z
+date = 2026-03-02T10:00:00Z
 slug = 'uno-dos-tres-catorce'
 draft = false
 description = 'Hanover Quay, 2002-2004 - The Shape of Agents Before the World Was Ready.'
@@ -20,7 +20,7 @@ At Hanover Quay the docklands felt like they were inhaling.
 Cranes. Concrete. Scaffolding. The sense that Dublin was re-wiring itself in real time. This was before the "Grand Canal Dock tech scene" became a cliché, before global logos lined the water, before Google's Docklands footprint came to define the area. The mythology didn't exist yet.
 
 Next door, U2 were recording what would become *How to Dismantle an Atomic Bomb*. You'd see The Edge being dropped off, heading into the studio. It was just part of the background at Hanover Quay.
-When [*Vertigo*](https://en.wikipedia.org/wiki/Vertigo_(U2_song)) hit radio in September 2004, that "uno, dos, tres, catorce" became impossible to escape. It leaked into taxis, pubs, late-night radio - and somehow into your internal monologue.
+When [*Vertigo*](https://en.wikipedia.org/wiki/Vertigo_(U2_song)) landed in September 2004, that "uno, dos, tres, catorce" became impossible to escape. It leaked into taxis, pubs, and dance floors - and somehow into your internal monologue.
 Two decades later, living in Madrid, that Spanish count-in sounds less like nostalgia and more like a bridge.
 
 Across the desk from me sat [Shay Healy](https://en.wikipedia.org/wiki/Shay_Healy) - broadcaster, writer, a real media presence. We’d talk. Occasionally go for a drink. Mostly he worked quietly, someone who understood tone and timing as craft.
@@ -30,11 +30,13 @@ On the other: us, trying to encode it.
 
 I was working at Emuse Technologies. Emuse were building interactive digital TV experiences - the “red button” era - and had acquired a Japanese company called [i-Chara](https://i-chara.com) through their Tokyo branch (eMuse KK).
 
+I realised the `i-chara.com` domain was available again, so I reclaimed it and rebuilt an archive with source references. It is a small corrective to a bigger myth: we assume the internet remembers everything, but a lot of important context has already disappeared.
+
 {{< post-image src="hannover-quay-old-studio-exterior.webp" alt="Old Hanover Quay studio exterior" caption="Old Hanover Quay studio exterior." width="480px" >}}
 
 And that’s where the loop starts.
 
-## What [i-Chara](https://i-chara.com) Actually Was
+## What i-Chara Actually Was
 
 i-Chara wasn’t a chatbot.
 
@@ -54,8 +56,6 @@ In Japan, during the [i-mode](https://en.wikipedia.org/wiki/I-mode) era, each us
 - facilitated introductions
 - surfaced relevant information
 - mediated disclosure
-
-That framing is now captured in the i-Chara archive at [i-chara.com](https://i-chara.com), including source references.
 
 This wasn’t a mascot. It wasn’t decoration.
 

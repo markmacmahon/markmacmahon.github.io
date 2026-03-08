@@ -1,13 +1,13 @@
 +++
-title = 'Eighty Engineers'
+title = "The Innovator's Dilemma"
 date = 2026-03-20T10:00:00Z
-slug = 'eighty-engineers'
+slug = 'innovators-dilemma'
 draft = true
 description = 'We shipped in three weeks. They wanted eighty engineers. Both things can be true.'
 [sitemap]
   priority = 0.8
 [params]
-  series_number = 7
+  series_number = 0
   song_title = ''
   song_artist = ''
   song_year = ''

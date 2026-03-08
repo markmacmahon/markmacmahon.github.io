@@ -15,7 +15,7 @@ description = 'From the Sinclair Spectrum to AI agents - some patterns do not ch
   song_url = 'https://open.spotify.com/track/40lKv5fLpzPHV1YQ7nrfMg'
 +++
 
-I wasn’t expecting to see a Sinclair Spectrum on the wall of a startup office in rural Spain.
+I wasn’t expecting to see a [Sinclair Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) on the wall of a startup office in rural Spain.
 
 Every month I travel from Madrid to [Villena](https://en.wikipedia.org/wiki/Villena), where [Luzia](https://luzia.com) was founded. It’s a small town - vineyards, mountains, steady rhythm. Not the obvious birthplace of a company building at the edge of AI.
 
@@ -39,11 +39,11 @@ I grew up in Sutton on the north side of Dublin. I’m the eighth of nine childr
 
 Every summer, the ritual began in July when the football fixtures were announced in *Shoot* magazine. That’s when the debate started: which October or November match would we travel for?
 
-The trip itself was simple. Friday evening ferry from Dublin to Liverpool. Train across to Manchester. Match at Old Trafford. A quick pilgrimage through the Arndale Centre and Argos. Then back the same night - late ferry home, exhausted and happy.
+The trip itself was simple. Friday evening ferry from Dublin to Liverpool. Train across to Manchester. Match at Old Trafford. A quick pilgrimage through the Arndale Centre and Argos. A stop at the Atlantic Tower near the ferry terminal on the way back - the bar was always full of football faces, Ian Rush and Bruce Grobbelaar among them. Then the late ferry home, exhausted and happy.
 
-On one of those trips, before I was old enough to go myself, my older brother Brian came home with something unexpected.
+On one of those trips, a couple of years before I was old enough to go myself, my older brother Brian came home with something unexpected.
 
-A Sinclair Spectrum.
+A [Sinclair Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum).
 
 ## The Cursor
 
@@ -79,11 +79,11 @@ In hindsight it was absurd, but it captured something real about the transition:
 
 In 1994 I walked into [Dublin City University](https://www.dcu.ie/) to study computer applications.
 
-I hadn’t grown up around PCs. The first time I sat down at a Windows NT workstation, I genuinely didn’t know which key to press to log in.
+I hadn’t grown up around PCs. The first time I sat down at a Windows NT workstation, I genuinely didn’t know which key to press to log in. It was Ctrl+Alt+Delete. Nothing about that was intuitive.
 
 Email ran on Solaris machines. You SSH’d into servers to send messages. The web was still experimental. There was no Stack Overflow. If you got stuck, you figured it out - or you didn’t.
 
-In the labs we wrote C++ late into the night. Borland compilers. Crashes. Breakthroughs. A lot of those nights it was just the two of us - me and Andrew Jenkinson - coding in the labs or at his house before I had a PC of my own. He later co-founded [vStream](https://vstream.ie/) in Ireland, a hugely successful player in virtual reality experiences. Eventually there was a Gateway 2000 in my bedroom.
+In the labs we wrote C++ late into the night. Borland compilers. Crashes. Breakthroughs. A lot of those nights it was just the two of us - me and [Andrew Jenkinson](https://www.linkedin.com/in/andrew-jenkinson-dublin/) - coding in the labs or at his house before I had a PC of my own. He later co-founded [vStream](https://vstream.ie/) in Ireland, a hugely successful player in virtual reality experiences. Eventually there was a Gateway 2000 in my bedroom.
 
 That’s where obsession really took hold.
 
@@ -102,17 +102,13 @@ That is what “back to the cursor” means now: not nostalgia, but a return to 
 When typing was slow, thinking was hidden.  
 Now thinking is exposed.
 
-I’m dictating parts of this using [Wispr Flow](https://wisprflow.ai/). Speaking to an AI instead of typing. The system understands my spelling mistakes and reshapes ideas if I’m not careful. It forces clarity - not in syntax, but in intent.
-
 Forty years ago I waited for a cassette to load.
 
 Now I sometimes wait for tokens to refresh.
 
 Different medium. Same energy.
 
-## Obsession, Then and Now
-
-The thread that feels most consistent is obsession.
+## Then and Now
 
 In the early days it was late nights in labs, handwritten notes, code manuals, and repeated loops until things broke less often.
 
@@ -120,15 +116,13 @@ Now it’s AI-assisted coding: faster loops, tighter feedback, more experimentat
 
 Throughput changed. Intensity didn’t.
 
-When building is slower than thinking, frustration creeps in. When building speed gets closer to thought speed, obsession comes back.
-
-That shift is not just personal. It is a systems signal.
+When building is slower than thinking, frustration creeps in. When building speed gets closer to thought speed, that old feeling comes back.
 
 ## Madrid
 
 Dublin, Washington DC, Brussels, Berlin, Madrid - different cities, different stacks, but the same recurring questions: identity, trust, interfaces, and how humans hand agency to systems.
 
-After nearly three decades in software, I feel something familiar again.
+After all these years, I feel something familiar again.
 
 Curiosity.  
 Speed.  
@@ -140,8 +134,6 @@ But there’s something quietly fitting about building AI systems in a company t
 
 In the next post, [Uno. Dos. Tres. Catorce.](/posts/uno-dos-tres-catorce/), I'll go back to Hanover Quay in 2002-2004 - where I was working on a concept very close to what we're building at Luzia now, just before the technology was ready for it.
 
-The obsession has come back in loops: first at home with the Spectrum, then in the labs as a student, and now with AI-assisted coding.
-
-One blinking cursor loop is closed. Another is open.
+It started with a rubber keyboard in Dublin. It came back in the labs. It is back again now.
 
 {{< post-image src="manchester-united-family-photo-1985.jpg" alt="Manchester United family photo from 1985" caption="Friday evening, 15 November 1985: My first trip to Manchester. <a href='https://youtu.be/27lVhIm_wOA?si=epiMaxG98Z2zj_qX'>United 0-0 Spurs</a>, 54,575 in Old Trafford. That's me in the bucket hat with my brothers Brian and Niall - I didn't know it yet, but it was rehearsal for a different kind of obsession with Manchester that involved the Stone Roses, the Happy Mondays and Oasis." width="480px" >}}

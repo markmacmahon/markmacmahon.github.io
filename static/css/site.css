@@ -203,6 +203,26 @@ blockquote cite {
   text-align: left !important;
 }
 
+.post-video {
+  margin: 2rem 0;
+}
+
+.post-video > video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+}
+
+.post-video figcaption {
+  font-style: italic;
+  color: var(--muted);
+  margin-top: 0.75rem;
+  font-size: 0.9em;
+  text-align: left !important;
+}
+
 .content img {
   max-width: 100%;
   height: auto;
