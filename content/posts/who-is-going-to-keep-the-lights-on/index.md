@@ -141,4 +141,4 @@ The spark was lit there. It never went out.
 
 ---
 
-*Next: [Google London Calling](/posts/google-london-calling/) - Two days inside Google Cloud's AI Innovators Expedition. Agents, multimodal, governance, and what the next platform shift actually looks like from the inside.*
+*Next: [Craftsmanship vs CraftsmanSh*t](/posts/craftsmanship-vs-craftsmanshit/) - AI amplifies whatever you bring to it.*
