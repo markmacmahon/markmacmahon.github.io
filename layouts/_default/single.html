@@ -8,6 +8,9 @@
     </h1>
     {{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
   </header>
+  {{ if .Params.coming_soon }}
+  <div class="content"><p>This post is coming soon.</p></div>
+  {{ else }}
   <div class="content">{{ .Content }}</div>
   {{ with .Params.song_title }}
   {{ $trackID := replaceRE `.*track/` "" $.Params.song_url }}
@@ -17,6 +20,7 @@
       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ $trackID }}?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
   </footer>
+  {{ end }}
   {{ end }}
 </article>
 {{ $pages := (where site.RegularPages "Section" "posts").ByParam "series_number" }}
