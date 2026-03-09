@@ -7,11 +7,13 @@
 {{- $pages = $pctx.Pages -}}
 {{- end -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- $pages = where $pages ".Params.coming_soon" "ne" true -}}
+{{- $pages = where $pages ".Draft" "ne" true -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
@@ -28,7 +30,6 @@
       <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Description | plainify }}</description>
-      <content:encoded>{{ .Content | html }}</content:encoded>
       <author>mark@markmacmahon.com (Mark MacMahon)</author>
     </item>
     {{- end }}
