@@ -20,6 +20,7 @@ This is a personal essay series. Posts are numbered and meant to be read in sequ
 - [06 ClawCon Madrid](https://markmacmahon.com/posts/clawcon-madrid/): ClawCon event at IE University, Madrid. 350 signups, 150 capacity, standing room only. OpenClaw adoption, data sovereignty, governance tooling from ClawSight. Connected to the Madrid tech scene through Joe Haslam at IE University. Panel at Product People x Clarity AI event. The energy in Madrid.
 - [07 C "T-shaped" O](https://markmacmahon.com/posts/c-t-shaped-o/): Why the CTO title never quite fit. CTO as the most overloaded title in tech. T-shaped skills: deep in technology, broad across product, design, brand, and growth. Four senses (product sense, design taste, marketing sense, engineering sense). Failure modes when teams are deep but narrow. T-shaped team design. The convergence: AI makes design production accessible to everyone, but design leadership becomes more urgent, not less. AI raises the floor of breadth and makes depth more valuable.
 - [08 Variance](https://markmacmahon.com/posts/variance/): Biometric false positives at Daon in the mid-2000s. The deterministic assumption - treating probabilistic output as certain. Dublin poker scene during the Celtic Tiger: Late Night Poker on Channel 4, Merrion Casino, World Series of Poker 2005, bad beat against Nick Leeson. Poker as a framework for understanding AI coding variance. Tokens and chips. Solvers and multi-agent architecture. The deterministic line: using AI to build products vs using AI in products. The eval layer and model switching discipline.
+- [09 Who Is Going to Keep the Lights On?](https://markmacmahon.com/posts/who-is-going-to-keep-the-lights-on/): Orbism, Dublin, 1998. A small software company in the basement of a Georgian terrace on Pembroke Street. The mentorship that Gavin Scott, Richard Long, and Darren Redmond provided to a 22-year-old straight out of college. Iona Technologies and CORBA. Norkom Technologies and late nights. The Celtic Tiger. Freelancing at GE and Ericsson. The room that produced careers across software and finance in Ireland, Switzerland, and the United States. The argument against senior-only hiring: companies that hire only seniors are renting capability, companies that mentor juniors are building something that compounds. Instincts that compound, not skills that depreciate.
 
 ## Key Themes
 
@@ -34,6 +35,8 @@ This is a personal essay series. Posts are numbered and meant to be read in sequ
 - T-shaped skills - deep in one discipline, broad across many - have never been more important. AI raises the floor of breadth and makes depth more valuable simultaneously.
 - Variance is real. You can make the correct decision and still lose. The discipline is building systems that absorb variance, not avoiding it.
 - The scar tissue is the credential. Leaders who have not built with AI tools make worse decisions about deploying them.
+- Companies that hire only seniors are renting capability. Companies that mentor juniors are building something that compounds. Mentorship builds instincts that compound, not skills that depreciate.
+- AI amplifies whatever you bring to it. Craftsmanship plus AI produces leverage. No craft plus AI produces volume that decays into technical debt.
 
 ## Professional Background
 
