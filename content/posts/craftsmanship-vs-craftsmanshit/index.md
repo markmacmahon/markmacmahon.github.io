@@ -8,7 +8,7 @@ description = 'AI amplifies whatever you bring to it.'
   priority = 0.8
 [params]
   series_number = 10
-  #coming_soon = true
+  coming_soon = true
   og_image = '/posts/craftsmanship-vs-craftsmanshit/amplification-fork.png'
   song_title = 'Das Modell'
   song_artist = 'Kraftwerk'
