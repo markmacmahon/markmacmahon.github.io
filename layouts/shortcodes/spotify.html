@@ -1,0 +1,7 @@
+{{ $size := .Get "size" | default "compact" }}
+{{ $height := 152 }}
+{{ if eq $size "small" }}{{ $height = 80 }}{{ end }}
+{{ if eq $size "full" }}{{ $height = 352 }}{{ end }}
+<div style="max-width: 480px; margin: 1.5em 0;">
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ .Get "id" }}?utm_source=generator&theme=0" width="100%" height="{{ $height }}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
