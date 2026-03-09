@@ -1,5 +1,5 @@
 +++
-title = 'Craftsmanship vs CraftsmanSh*t'
+title = 'Craftsmanship vs Craftsmansh*t'
 date = 2026-03-11T10:00:00Z
 slug = 'craftsmanship-vs-craftsmanshit'
 draft = false
@@ -40,7 +40,7 @@ Then breaks slowly.
 
 {{< post-image src="amplification-fork.png" alt="The Amplification Fork - Craft plus AI produces leverage, no craft plus AI produces volume" caption="Two paths from the same tools. The difference is what the person brings." width="480px" >}}
 
-**Craftsmanship compounds. CraftsmanShit compounds too.** One builds systems you can maintain. The other builds systems nobody can safely change.
+**Craftsmanship compounds. Craftsmanshit compounds too.** One builds systems you can maintain. The other builds systems nobody can safely change.
 
 ## The Maintenance Horizon
 

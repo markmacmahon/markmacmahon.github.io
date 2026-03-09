@@ -141,4 +141,4 @@ The spark was lit there. It never went out.
 
 ---
 
-*Next: [Craftsmanship vs CraftsmanSh*t](/posts/craftsmanship-vs-craftsmanshit/) - AI amplifies whatever you bring to it.*
+*Next: [Craftsmanship vs Craftsmansh*t](/posts/craftsmanship-vs-craftsmanshit/) - AI amplifies whatever you bring to it.*
