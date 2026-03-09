@@ -3,7 +3,7 @@ title = 'Drafts'
 draft = true
 [sitemap]
   priority = -1
-[_build]
+[build]
   list = 'never'
   render = 'never'
 +++
