@@ -54,7 +54,7 @@ I use [Wispr Flow](https://wisprflow.ai/) now to speak to AI when I am coding. N
 
 It is genuinely better. The feedback loop is faster. The friction between having an idea and expressing it is nearly gone. I used to code the same way - slowly, deliberately, solving problems one at a time, getting the adrenaline rush of being stuck and then unstuck. That contemplative rhythm is gone now. AI agents accelerated the work, but the expectations scaled with them. It is still satisfying. It is not relaxing.
 
-A former colleague, [Artur Roszczyk](https://www.linkedin.com/in/artur-roszczyk), wrote about this in his piece [Slow-code](https://blog.sevos.io/posts/2025-10-24-slow-code). He describes feeling disconnected from the code he commits. His remedy is deliberate: editor only, word by word, no AI. He is one of the strongest proponents of AI I know. But he is also a professional choosing to maintain a relationship with the material.
+A former colleague, [Artur Roszczyk](https://www.linkedin.com/in/artur-roszczyk), wrote about this in his piece [Slow-code](https://blog.sevos.io/posts/2025-10-24-slow-code). He describes feeling disconnected from the code he commits. His remedy is deliberate: editor only, word by word, no AI. He is one of the strongest proponents of AI-assisted coding I know. But he is also a professional choosing to maintain a relationship with the material.
 
 The progression is clear. We went from typing to speaking. Elon Musk's [Neuralink](https://neuralink.com/) is working on the next step - thinking directly into the machine, no speech required. [Noland Arbaugh](https://en.wikipedia.org/wiki/Noland_Arbaugh), the first human trial participant in 2024, controlled a computer with his thoughts. The interface is dissolving.
 
