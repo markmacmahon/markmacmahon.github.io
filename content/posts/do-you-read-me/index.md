@@ -1,6 +1,6 @@
 +++
 title = 'Do You Read Me?'
-date = 2026-03-20T10:00:00Z
+date = 2026-03-11T10:00:00Z
 slug = 'do-you-read-me'
 draft = false
 description = "We're trading one kind of competence for another, and we don't yet know the exchange rate."
@@ -8,7 +8,7 @@ description = "We're trading one kind of competence for another, and we don't ye
   priority = 0.8
 [params]
   series_number = 11
-  coming_soon = true
+  coming_soon = false
   og_image = '/posts/do-you-read-me/do-you-readme.png'
   song_title = 'Space Oddity'
   song_artist = 'David Bowie'
@@ -30,7 +30,7 @@ I read fewer books than I used to.
 
 I always assumed I had perfect eyesight. In my mid-forties I started needing glasses. Before I was diagnosed, I did not understand why I was less drawn to screens, less inclined to read, less patient with code. I assumed it was attention. It was not. It was my eyes, making choices my brain had not caught up with. I still do not wear them in public. I only put them on at my desk, in front of a screen. The morning fog when I check my phone without them. The blur after a few drinks. These are the moments when reading quietly stops being something you choose and starts being something you avoid.
 
-Since I got a smartphone, I read less again. Since AI could summarise anything in seconds, I am not sure what reading even means anymore. I scan. I extract. I move on.
+I miss reading.
 
 I cannot blame my friend for doing the same thing I do.
 
@@ -42,7 +42,7 @@ A twelve-minute essay is not twelve minutes of information. It is twelve minutes
 
 And then there is the other side. AI is not just summarising - it is generating. The clue is in the name. [GPT](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) - Generative Pre-trained Transformer. It generates. So many words. So little being said. We are simultaneously losing the patience to read and flooding the world with things not worth reading.
 
-You read a headline on Facebook about the next great movie on Netflix. You click through. You scroll past the ads, the related articles, the autoplay videos. Three minutes later you still cannot find the name of the actual movie. Your attention is the product. The content is just the bait. The dopamine hit of extraction is real. The blind spot it creates is harder to see.
+You read a headline on Facebook about the next unmissable show on Netflix. You click through. You scroll past the ads, the related articles, the autoplay videos. Three minutes later you still cannot find the name of the show. The name could have been in the headline. But it was not. Your attention is the product. The content is just the bait. The dopamine hit of extraction is real. The blind spot it creates is harder to see.
 
 ## Typing. Speaking. Thinking.
 
@@ -54,11 +54,9 @@ I use [Wispr Flow](https://wisprflow.ai/) now to speak to AI when I am coding. N
 
 It is genuinely better. The feedback loop is faster. The friction between having an idea and expressing it is nearly gone. I used to code the same way - slowly, deliberately, solving problems one at a time, getting the adrenaline rush of being stuck and then unstuck. That contemplative rhythm is gone now. AI agents accelerated the work, but the expectations scaled with them. It is still satisfying. It is not relaxing.
 
-A former colleague, [Artur Roszczyk](https://www.linkedin.com/in/artur-roszczyk), wrote about this in his piece [Slow-code](https://blog.sevos.io/posts/2025-10-24-slow-code). He describes feeling disconnected from the code he commits. His remedy is deliberate: editor only, word by word, no AI. He is not a luddite. He is a professional choosing to maintain a relationship with the material.
+A former colleague, [Artur Roszczyk](https://www.linkedin.com/in/artur-roszczyk), wrote about this in his piece [Slow-code](https://blog.sevos.io/posts/2025-10-24-slow-code). He describes feeling disconnected from the code he commits. His remedy is deliberate: editor only, word by word, no AI. He is one of the strongest proponents of AI I know. But he is also a professional choosing to maintain a relationship with the material.
 
-And that is the thing that unsettles me.
-
-Because the progression is clear. We went from typing to speaking. Elon Musk's [Neuralink](https://neuralink.com/) is working on the next step - thinking directly into the machine, no speech required. [Noland Arbaugh](https://en.wikipedia.org/wiki/Noland_Arbaugh), the first human trial participant in 2024, controlled a computer with his thoughts. The interface is dissolving.
+The progression is clear. We went from typing to speaking. Elon Musk's [Neuralink](https://neuralink.com/) is working on the next step - thinking directly into the machine, no speech required. [Noland Arbaugh](https://en.wikipedia.org/wiki/Noland_Arbaugh), the first human trial participant in 2024, controlled a computer with his thoughts. The interface is dissolving.
 
 Each step removes a barrier between intention and action. Each step also removes a filter - a space where you pause, reconsider, choose your words. The friction we are racing to eliminate might be the space where something important happens.
 
@@ -80,11 +78,11 @@ But integrity only exists because there is a gap. It requires a space between th
 
 ## What Lived in the Gap?
 
-[Joan Didion](https://en.wikipedia.org/wiki/Joan_Didion) wrote:
+[Dick Guindon](https://en.wikipedia.org/wiki/Richard_Guindon) wrote:
 
-> I don't know what I think until I write it down.
+> Writing is nature's way of letting you know how sloppy your thinking is.
 
-The slowness of writing was not a limitation. It was the thinking process itself.
+The slowness of writing was not a limitation. It was the diagnostic.
 
 [Daniel Kahneman](https://en.wikipedia.org/wiki/Daniel_Kahneman) described two systems of thought. System 1 is fast, intuitive, automatic - the [lizard brain](https://en.wikipedia.org/wiki/Triune_brain), the amygdala, fight or flight. System 2 is slow, deliberate, effortful - the prefrontal cortex, the part that pauses before acting. System 2 is where critical reasoning lives. It is also the part that therapy strengthens: the space between stimulus and response where you learn to respond instead of react.
 
@@ -116,7 +114,7 @@ GPS made us worse at navigation. Spell-check made us worse at spelling. Phone bo
 
 But then I think about [Mahmoud](https://www.linkedin.com/in/mahmoud-zoabi-a5315049/). He was a colleague at [Future Demand](https://www.future-demand.com/), an AI startup I worked at just before COVID. He had no patience for books or manuals. He learned by fast-forwarding through YouTube videos. He did not care about SSL certificates, Let's Encrypt, or CDN configuration. He just wanted the server deployed, the problem solved, and to move on to something bigger.
 
-I am sure Mahmoud is thriving right now. AI removes every friction he was fighting against. Maybe he was right all along. Maybe the details were never the point.
+When I met Mahmoud again about a year ago, he was the most advanced ChatGPT power user I had seen. AI removes every friction he was fighting against. He never needed the manual. He needed the outcome.
 
 Or maybe something is lost when you skip the manual. **We are trading one kind of competence for another, and we do not yet know the exchange rate.**
 
@@ -134,7 +132,7 @@ Do you read me?
 
 ## Further Reading
 
-The research behind this post, for those with the patience.
+The research behind this post.
 
 ### Cognitive Improvement in Older Adults
 
@@ -158,7 +156,7 @@ The research behind this post, for those with the patience.
 
 ### Philosophy and Psychology
 
-- **Joan Didion (1976)** - ["Why I Write."](https://lithub.com/joan-didion-why-i-write/) "I don't know what I think until I write it down."
+- **Dick Guindon** - ["Writing is nature's way of letting you know how sloppy your thinking is."](https://en.wikipedia.org/wiki/Richard_Guindon) Also attributed to [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport).
 
 - **Andy Clark & David Chalmers (1998)** - ["The Extended Mind."](https://en.wikipedia.org/wiki/Extended_mind_thesis) Cognitive processes extend beyond the skull. Tools are part of cognition.
 
