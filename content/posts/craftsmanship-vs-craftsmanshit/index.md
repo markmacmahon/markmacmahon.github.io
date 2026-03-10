@@ -1,6 +1,6 @@
 +++
 title = 'Craftsmanship vs Craftsmansh*t'
-date = 2026-03-11T10:00:00Z
+date = 2026-03-10T10:00:00Z
 slug = 'craftsmanship-vs-craftsmanshit'
 draft = false
 description = 'AI amplifies whatever you bring to it.'
@@ -8,7 +8,7 @@ description = 'AI amplifies whatever you bring to it.'
   priority = 0.8
 [params]
   series_number = 10
-  coming_soon = true
+  coming_soon = false
   og_image = '/posts/craftsmanship-vs-craftsmanshit/amplification-fork.png'
   song_title = 'Das Modell'
   song_artist = 'Kraftwerk'
@@ -150,4 +150,4 @@ The craft is knowing the difference.
 
 ---
 
-*Next: [Google London Calling](/posts/google-london-calling/) - Two days inside Google Cloud's AI Innovators Expedition. Agents, multimodal, governance, and what the next platform shift actually looks like from the inside.*
+*Next: [Do You Read Me?](/posts/do-you-read-me/) - We're trading one kind of competence for another, and we don't yet know the exchange rate.*

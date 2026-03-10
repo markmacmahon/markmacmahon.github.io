@@ -7,7 +7,7 @@ description = "Two days inside Google Cloud's AI Innovators Expedition. Agents, 
 [sitemap]
   priority = 0.8
 [params]
-  series_number = 11
+  series_number = 12
   #coming_soon = true
   song_title = 'London Calling'
   song_artist = 'The Clash'
