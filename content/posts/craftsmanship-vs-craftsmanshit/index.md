@@ -22,7 +22,7 @@ Christian - one of the sharpest product minds I have worked with - chimed in: th
 
 We may not be the originators of the term. But it was the first time I heard it, and I have used it ever since.
 
-{{< post-image src="christian-me.jpeg" alt="Mark MacMahon and Christian Becker at IFA Berlin, September 2025" caption="Christian Becker and Mark MacMahon. IFA Berlin, September 2025." width="480px" >}}
+{{< post-image src="christian-me.jpeg" alt="Mark MacMahon and Christian Becker at IFA Berlin, September 2025" caption="Christian Becker and Mark MacMahon. IFA Berlin, September 2025." width="640px" >}}
 
 That conversation was about legacy codebases and the friction between product ambition and engineering reality. But the term has become more relevant, not less. Because now the volume of code being produced has exploded, and the average quality is heading in one direction.
 
@@ -38,7 +38,7 @@ Bring nothing - no design instinct, no testing habit, no understanding of why th
 
 Then breaks slowly.
 
-{{< post-image src="amplification-fork.png" alt="The Amplification Fork - Craft plus AI produces leverage, no craft plus AI produces volume" caption="Two paths from the same tools. The difference is what the person brings." width="480px" >}}
+{{< post-image src="amplification-fork.png" alt="The Amplification Fork - Craft plus AI produces leverage, no craft plus AI produces volume" caption="Two paths from the same tools. The difference is what the person brings." width="640px" >}}
 
 **Craftsmanship compounds. Craftsmanshit compounds too.** One builds systems you can maintain. The other builds systems nobody can safely change.
 
@@ -52,7 +52,7 @@ Month three, cracks appear. Inconsistent patterns. Dependencies that do not make
 
 Month six, debt compounds. Nobody fully understands the system. Changing one thing breaks three others. The team slows down, not because they are less capable, but because the codebase is fighting them.
 
-{{< post-image src="maintenance-horizon.png" alt="The Maintenance Horizon - craftsmanship and craftsmanshit diverge over time" caption="Day one, both look the same. The difference shows up when you need to maintain it." width="480px" >}}
+{{< post-image src="maintenance-horizon.png" alt="The Maintenance Horizon - craftsmanship and craftsmanshit diverge over time" caption="Day one, both look the same. The difference shows up when you need to maintain it." width="640px" >}}
 
 This is not hypothetical. Anyone who has inherited a codebase knows exactly what this feels like. The difference now is that AI makes it possible to generate this kind of debt at unprecedented speed.
 
@@ -62,13 +62,13 @@ In a recent episode of the [Pragmatic Engineer podcast](https://newsletter.pragm
 
 Not a vague correlation. A causal, quantified relationship.
 
-<div style="max-width: 480px; margin: 1.5em 0;">
+<div style="max-width: 640px; margin: 1.5em 0;">
 {{< youtube julbw1JuAz0 >}}
 </div>
 
 Meta's own [research](https://arxiv.org/html/2504.12517v1) makes the numbers concrete:
 
-{{< post-image src="meta-evidence.png" alt="Meta research data on code quality and productivity" caption="The quantified cost of craftsmanshit. Source: Meta, Code Improvement Practices (2025)." width="480px" >}}
+{{< post-image src="meta-evidence.png" alt="Meta research data on code quality and productivity" caption="The quantified cost of craftsmanshit. Source: Meta, Code Improvement Practices (2025)." width="640px" >}}
 
 Reengineered code is 41-77% faster to work with. Severity-causing incidents drop by 55-90%. Meta's internal guideline is to allocate 20-30% of engineering effort to what they call Better Engineering. At Meta, 14.2% of all code changes are code improvement - compared to 4% as the industry average.
 
@@ -116,11 +116,11 @@ Ambiguous specs lead to agent thrashing. Multiple attempts. Wasted context windo
 
 Architecture matters too. At Luzia we found that hexagonal architecture - ports, adapters, layers of indirection - works against AI agents. The agent needs to hold the entire indirection graph in context to make a single change. What works better is high-locality architecture: [vertical slices](https://www.oreateai.com/blog/beyond-code-completion-architecting-for-the-ai-era/08656a564a9286c9b4d42dff31a3e3b7) where everything related to a capability lives together. Handler, logic, persistence, tests - all in one place. Smaller context windows. Fewer files to reason about. Less chance the agent misunderstands a boundary.
 
-{{< post-image src="vertical-slice.png" alt="Architecture for Agents - hexagonal architecture vs vertical slice architecture" caption="High-locality architecture gives agents less to reason about. The craft is in how you structure the system for the tools that build it." width="480px" >}}
+{{< post-image src="vertical-slice.png" alt="Architecture for Agents - hexagonal architecture vs vertical slice architecture" caption="High-locality architecture gives agents less to reason about. The craft is in how you structure the system for the tools that build it." width="640px" >}}
 
 The [AI Capability Staircase](/posts/expand-extract/) maps directly to where craft operates:
 
-{{< post-image src="craft-staircase.png" alt="Craft altitude mapped to the AI Capability Staircase" caption="The staircase does not remove the need for craft. It raises the altitude at which craft operates." width="480px" >}}
+{{< post-image src="craft-staircase.png" alt="Craft altitude mapped to the AI Capability Staircase" caption="The staircase does not remove the need for craft. It raises the altitude at which craft operates." width="640px" >}}
 
 At Level 1, you need craft to evaluate code. At Level 2, you need craft to design tool constraints. At Level 3, you need craft to write specifications precise enough for autonomous execution. At Level 4, you need craft to design the system of agents itself.
 
