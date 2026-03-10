@@ -134,7 +134,3 @@ AI-assisted development increases the cost of ambiguity. When humans write code,
 Discipline returns - not as bureaucracy, but as precision.
 
 The biometric threshold. The poker solver. The production stack. Same question across decades: where is the line between what you can compute and what you must estimate? Drawing that line deliberately is the difference between a system that scales and one that embarrasses you at the border.
-
----
-
-*Next: [Who Is Going to Keep the Lights On?](/posts/who-is-going-to-keep-the-lights-on/) - AI replaced the need for juniors. Or so the thinking goes.*

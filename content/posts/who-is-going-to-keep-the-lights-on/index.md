@@ -138,7 +138,3 @@ The technology changed every few years. The disposition never did.
 And in a moment when people are arguing about whether juniors still matter, I keep thinking about that room in Dublin in 1998. The books on the desks. The conversations about design. People who had no idea yet where they'd end up.
 
 The spark was lit there. It never went out.
-
----
-
-*Next: [Craftsmanship vs Craftsmansh*t](/posts/craftsmanship-vs-craftsmanshit/) - AI amplifies whatever you bring to it.*

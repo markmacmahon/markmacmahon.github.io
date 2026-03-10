@@ -50,7 +50,3 @@ There is real energy here. Smart people, low enough cost to take risks, and a co
 I am glad to be here for it.
 
 {{< post-image src="prod-event-crowd.jpeg" alt="Audience at a Madrid product and AI event" caption="Product event crowd in Madrid." width="560px" >}}
-
----
-
-*Next: [C "T-shaped" O](/posts/c-t-shaped-o/) - I was never comfortable with the CTO title.*

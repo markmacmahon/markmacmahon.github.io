@@ -147,7 +147,3 @@ The song is about a model - something that looks perfect on the surface. Beautif
 AI models produce output that looks like software. Sometimes it is software. Sometimes it is a surface.
 
 The craft is knowing the difference.
-
----
-
-*Next: [Do You Read Me?](/posts/do-you-read-me/) - We're trading one kind of competence for another, and we don't yet know the exchange rate.*

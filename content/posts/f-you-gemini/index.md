@@ -155,7 +155,3 @@ If you want the fuller pattern, here is a wider evidence set from the same perio
 {{< gallery-item src="claude-weekly-limit.png" alt="Claude weekly usage limit reached during active development cycle" caption="Capacity planning matters when your pair programmer has quotas." >}}
 {{< gallery-item src="no-surprises-promise.png" alt="Agent making reassuring no-surprises claims before unexpected behaviour" caption="Confidence language is not a reliability guarantee." >}}
 {{< /gallery >}}
-
----
-
-*Next: [ContextRocket](/posts/contextrocket/) - answer engine optimisation. The idea, the market, and what happens next.*

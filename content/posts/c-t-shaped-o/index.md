@@ -84,7 +84,3 @@ Titles matter less than integration. The best leadership teams I have seen are c
 If your thinking is vague, AI exposes it. If your architecture is weak, AI collapses under it. If you are disciplined, AI accelerates you.
 
 This is not a CTO argument. It is not even a leadership argument. T-shaped skills have never been more important for everyone building products - regardless of title, seniority, or function. The people who thrive in what comes next will not be the deepest specialists or the broadest generalists. They will be the ones who go deep enough to be credible and broad enough to be useful.
-
----
-
-*Next: [Variance](/posts/variance/) - know when to hold 'em. Know when to fold 'em. Know when the problem is deterministic and when it is not.*

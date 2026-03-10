@@ -151,7 +151,3 @@ The core thesis is unchanged:
 better context in, better representation out.
 
 The surface area is wider now. The discipline is the same.
-
----
-
-*Next: [ClawCon Madrid](/posts/clawcon-madrid/) - the energy in the room told you more than the slides.*
