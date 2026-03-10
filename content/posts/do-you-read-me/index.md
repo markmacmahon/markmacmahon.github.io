@@ -46,7 +46,7 @@ You read a headline on Facebook about the next great movie on Netflix. You click
 
 ## Typing. Speaking. Thinking.
 
-In 1984, to make Daley Thompson run on a [Sinclair Spectrum](/posts/back-to-the-cursor/), you hammered two keys back and forth as fast as your fingers could move. There was no mouse. The joysticks rarely survived the game. Just keys and blisters and friction. That was the interface.
+In 1984, to make Daley Thompson run on a [Sinclair Spectrum](/posts/back-to-the-cursor/), you hammered two keys back and forth as fast as your fingers could move. There was no mouse. There was no joystick. Just a rubber keyboard, blisters, and friction. That was the interface.
 
 {{< post-image src="daley-thompson-running.webp" alt="Daley Thompson's Decathlon on the ZX Spectrum - 100m sprint" caption="Daley Thompson's Decathlon (1984). Two keys, alternating, as fast as you could. Source: <a href='https://www.retrogamesnow.co.uk/daley-thompsons-decathlon-for-zx-spectrum/' target='_blank' rel='noopener noreferrer'>Retro Games Now</a>." width="480px" >}}
 
