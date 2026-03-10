@@ -46,7 +46,9 @@ You read a headline on Facebook about the next great movie on Netflix. You click
 
 ## Typing. Speaking. Thinking.
 
-I use [Wispr Flow](https://wisprflow.ai/) now to speak directly to AI. No keyboard. No spelling mistakes. I talk, it listens, it organises. It captures nuance that typing filters out - the digressions, the way I circle a point before committing to it.
+In 1984, to make Daley Thompson run on a [Sinclair Spectrum](/posts/back-to-the-cursor/), you hammered two keys back and forth as fast as your fingers could move. There was no mouse. The joysticks rarely survived the game. Just keys and blisters and friction. That was the interface.
+
+I use [Wispr Flow](https://wisprflow.ai/) now to speak to AI when I am coding. No keyboard. No spelling mistakes. I talk, it listens, it organises. It captures nuance that typing filters out - the digressions, the way I circle a problem before committing to a solution. A friend, [Malte Wagenbach](https://www.linkedin.com/in/maltewagenbach/), built [Whisper](https://www.producthunt.com/products/whisper-4) to solve the same problem without the cloud - voice processed locally on your Mac, data immediately discarded. Different philosophies, same instinct: the keyboard is no longer the interface.
 
 It is genuinely better. The feedback loop is faster. The friction between having an idea and expressing it is nearly gone. I used to code the same way - slowly, deliberately, solving problems one at a time, getting the adrenaline rush of being stuck and then unstuck. That contemplative rhythm is gone now. AI agents accelerated the work, but the expectations scaled with them. It is still satisfying. It is not relaxing.
 
