@@ -20,7 +20,7 @@ A few years ago, when I was working at [FLOYT Mobility](https://www.billiger-mie
 
 Christian - one of the sharpest product minds I have worked with - chimed in: that is not craftsmanship. That is craftsmanshit.
 
-We may not be the originators of the term. But it was the first time I heard it, and I have used it ever since.
+We may not be the originators of the term. [Urban Dictionary had it in 2007](https://www.urbandictionary.com/define.php?term=craftsmanshit) - defined as products designed to break within a short period of time, to sustain sales. We were talking about code, not DVD players. But the principle is the same. It was the first time I heard it, and I have used it ever since.
 
 {{< post-image src="christian-me.jpeg" alt="Mark MacMahon and Christian Becker at IFA Berlin, September 2025" caption="Christian Becker and Mark MacMahon. IFA Berlin, September 2025." width="640px" >}}
 
