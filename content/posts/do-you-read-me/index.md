@@ -48,6 +48,8 @@ You read a headline on Facebook about the next great movie on Netflix. You click
 
 In 1984, to make Daley Thompson run on a [Sinclair Spectrum](/posts/back-to-the-cursor/), you hammered two keys back and forth as fast as your fingers could move. There was no mouse. The joysticks rarely survived the game. Just keys and blisters and friction. That was the interface.
 
+{{< post-image src="daley-thompson-running.webp" alt="Daley Thompson's Decathlon on the ZX Spectrum - 100m sprint" caption="Daley Thompson's Decathlon (1984). Two keys, alternating, as fast as you could. Source: <a href='https://www.retrogamesnow.co.uk/daley-thompsons-decathlon-for-zx-spectrum/' target='_blank' rel='noopener noreferrer'>Retro Games Now</a>." width="480px" >}}
+
 I use [Wispr Flow](https://wisprflow.ai/) now to speak to AI when I am coding. No keyboard. No spelling mistakes. I talk, it listens, it organises. It captures nuance that typing filters out - the digressions, the way I circle a problem before committing to a solution. A friend, [Malte Wagenbach](https://www.linkedin.com/in/maltewagenbach/), built [Whisper](https://www.producthunt.com/products/whisper-4) to solve the same problem without the cloud - voice processed locally on your Mac, data immediately discarded. Different philosophies, same instinct: the keyboard is no longer the interface.
 
 It is genuinely better. The feedback loop is faster. The friction between having an idea and expressing it is nearly gone. I used to code the same way - slowly, deliberately, solving problems one at a time, getting the adrenaline rush of being stuck and then unstuck. That contemplative rhythm is gone now. AI agents accelerated the work, but the expectations scaled with them. It is still satisfying. It is not relaxing.
@@ -171,4 +173,18 @@ The research behind this post, for those with the patience.
 ### Brain-Computer Interfaces
 
 - **Neuralink** - Noland Arbaugh, first human trial participant (2024). [neuralink.com](https://neuralink.com/)
+
+### Voice-to-Text
+
+- **Wispr Flow** - Voice-to-AI coding interface. [wisprflow.ai](https://wisprflow.ai/)
+
+- **Whisper** - Local-first voice-to-text for Mac by [Malte Wagenbach](https://www.linkedin.com/in/maltewagenbach/). Runs on-device, no cloud. [Product Hunt](https://www.producthunt.com/products/whisper-4)
+
+### Coding and Craft
+
+- **Artur Roszczyk (2025)** - ["Slow-code."](https://blog.sevos.io/posts/2025-10-24-slow-code) Intentional manual coding as counterbalance to AI-assisted development.
+
+### Images
+
+- **Daley Thompson's Decathlon** screenshot courtesy of [Retro Games Now](https://www.retrogamesnow.co.uk/daley-thompsons-decathlon-for-zx-spectrum/).
 
