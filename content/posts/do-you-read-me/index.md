@@ -60,7 +60,7 @@ The progression is clear. We went from typing to speaking. Elon Musk's [Neuralin
 
 Each step removes a barrier between intention and action. Each step also removes a filter - a space where you pause, reconsider, choose your words. The friction we are racing to eliminate might be the space where something important happens.
 
-{{< post-image src="friction-progression.png" alt="The Friction Progression - Typing to Speaking to Thinking as the interface dissolves" caption="Each step removes a barrier. Each step also removes a filter." width="480px" >}}
+{{< post-image src="friction-progression.png" alt="The Friction Progression - Typing to Speaking to Thinking as the interface dissolves" caption="Each step removes a barrier. Each step also removes a filter." width="640px" >}}
 
 ## The Integrity Problem
 
@@ -74,7 +74,7 @@ But integrity only exists because there is a gap. It requires a space between th
 
 **The same friction we are racing to eliminate is the space where character lives.**
 
-{{< post-image src="integrity-gap.png" alt="The Integrity Gap - when friction between thought and action disappears, choice and character disappear with it" caption="When the gap disappears, does integrity disappear with it?" width="480px" >}}
+{{< post-image src="integrity-gap.png" alt="The Integrity Gap - when friction between thought and action disappears, choice and character disappear with it" caption="When the gap disappears, does integrity disappear with it?" width="640px" >}}
 
 ## What Lived in the Gap?
 
@@ -88,7 +88,7 @@ The slowness of writing was not a limitation. It was the diagnostic.
 
 Every layer of friction we remove pushes more activity toward System 1. When thought goes straight to action, you are running on instinct with machine amplification. **We are building tools that route around the very part of the brain that makes us deliberate.**
 
-{{< post-image src="system1-2.png" alt="System 1 vs System 2 - removing friction tips the balance toward fast, intuitive thinking" caption="Remove the friction, remove the deliberation." width="480px" >}}
+{{< post-image src="system1-2.png" alt="System 1 vs System 2 - removing friction tips the balance toward fast, intuitive thinking" caption="Remove the friction, remove the deliberation." width="640px" >}}
 
 [Heidegger](https://en.wikipedia.org/wiki/Martin_Heidegger) had a word for it. When a tool works perfectly, it becomes invisible - *ready-to-hand*. You do not think about the hammer. You think about the nail. But when the tool breaks or surprises you, suddenly you are aware of it again. The friction is what creates awareness. **Remove the friction, remove the awareness.**
 
@@ -104,7 +104,7 @@ But the same data contains a warning. The [Wisconsin cohort study](https://pmc.n
 
 **The generation that grew up before smartphones is cognitively fitter than ever. The generation that grew up with them may not be.**
 
-{{< post-image src="generation-divergence.png" alt="The Generational Divergence - cognitive performance rising in older adults, declining in younger populations" caption="The generation that grew up before smartphones is cognitively fitter than ever. The generation that grew up with them may not be." width="480px" >}}
+{{< post-image src="generation-divergence.png" alt="The Generational Divergence - cognitive performance rising in older adults, declining in younger populations" caption="The generation that grew up before smartphones is cognitively fitter than ever. The generation that grew up with them may not be." width="640px" >}}
 
 ## The New Division of Labour
 
