@@ -80,6 +80,7 @@ h1, h2, h3 {
   padding: 10px 0;
 }
 
+
 .post-list span,
 .meta {
   color: var(--muted);
@@ -327,8 +328,9 @@ blockquote cite {
   justify-content: space-between;
   gap: 16px;
   margin-top: 3rem;
-  padding-top: 1rem;
+  padding: 1rem 0;
   border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
   font-size: 15px;
 }
 
@@ -521,8 +523,12 @@ blockquote cite {
 }
 
 .site-footer {
-  border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 14px;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.site-footer p {
+  margin: 0;
 }
