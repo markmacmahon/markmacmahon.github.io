@@ -93,13 +93,20 @@
     }
     </script>
     {{ end }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TXR15D0457"></script>
+    {{ if eq (getenv "HUGO_ENV") "production" | or hugo.IsProduction }}
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-TXR15D0457');
+      if (/^(www\.)?markmacmahon\.com$/.test(window.location.hostname)) {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-TXR15D0457';
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TXR15D0457');
+      }
     </script>
+    {{ end }}
     <script>
       document.addEventListener('click', function (event) {
         var link = event.target.closest('a[href]');
