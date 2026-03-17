@@ -8,88 +8,94 @@ description = "Two days inside Google Cloud's AI Innovators Expedition. Agents, 
   priority = 0.8
 [params]
   series_number = 12
-  coming_soon = true
+  coming_soon = false
   song_title = 'London Calling'
   song_artist = 'The Clash'
   song_year = '1979'
   song_url = 'https://open.spotify.com/track/124Y9LPRCAz3q2OP0iCvcJ'
 +++
 
-Two days at Google Cloud's AI Innovators Expedition in London. March 11-12, 2026. Bonhill Street.
+March 11-12, 2026. Bonhill Street, London.
 
-I spent most of the event putting finishing touches on [Nexo](https://nexo.luzia.com) - the partner runtime I have been building over the past month. Three tabs open throughout: Claude Code for the partner dashboard, Codex for the webhook examples on Google Cloud Platform, Terraform for the AWS infrastructure. nexo.luzia.com went live during the event week.
+{{< gallery >}}
+{{< gallery-item src="29-bonhill-street-exterior.jpeg" alt="Google Cloud office, Bonhill Street, London" caption="Google Cloud, Bonhill Street, London." >}}
+{{< gallery-item src="00-mark-pitching-nexo.jpeg" alt="Mark MacMahon presenting at Google Cloud AI Innovators Expedition" caption="Day 1 morning." >}}
+{{< /gallery >}}
 
-## We Pitched Nexo
+Google invited around thirty companies to London for two days on agents, multimodal AI, and governance. The room included [Wallapop](https://wallapop.com), [Typeform](https://typeform.com), [JobandTalent](https://jobandtalent.com), [Fever](https://feverup.com), [Freepik](https://freepik.com), [RavenPack](https://ravenpack.com), [eDreams](https://edreams.com), and [Luzia](https://luzia.com). Two days of presentations, hands-on sessions, and an agent-building competition.
 
-{{< post-image src="00-mark-pitching-nexo.jpeg" alt="Mark MacMahon pitching Luzia Nexo at Google Cloud AI Innovators Expedition" caption="Luzia - Client's Voice: Previous Agent Experience. Day 1 morning." width="640px" >}}
+Day 1 morning I presented what we are working on at Luzia - Nexo, a way for external agents to connect into our platform and reach our users. This was the soft launch. Between sessions I was coding and deploying it live, adapting what I was building to what I was hearing. Plenty of bugs and glitches that I was fixing as I found them, but that is fine at this stage.
 
-Day 1 morning. The room was asked who wanted to share what they were building with Google AI. I walked up and presented Nexo - what it is, how it runs on Google's stack, and why agent distribution is the missing layer.
-
-{{< post-image src="27-mark-coding-new-way-to-cloud.jpeg" alt="Mark MacMahon coding Nexo at Google Cloud office - The new way to cloud" caption="Finishing Nexo between sessions." width="640px" >}}
-
-## What We Learned
+## What I Learnt
 
 ### Agent Building Standards
 
-{{< post-image src="06-agent-standards-adk-a2a-ap2-ucp.jpeg" alt="Google Cloud agent building standards - ADK, A2A, AP2, UCP" caption="Four protocols shaping the agentic ecosystem." width="640px" >}}
+{{< gallery >}}
+{{< gallery-item src="06-agent-standards-adk-a2a-ap2-ucp.jpeg" alt="Google Cloud agent building standards - ADK, A2A, AP2, UCP" caption="Four protocols shaping the agentic ecosystem." >}}
+{{< gallery-item src="02-agent-development-kit.jpeg" alt="Google Agent Development Kit presentation" caption="ADK - framework and SDK for multi-agent solutions." >}}
+{{< gallery-item src="01-genmedia-vertex-ai.jpeg" alt="GenMedia on Vertex AI presentation" caption="GenMedia on Vertex AI." >}}
+{{< gallery-item src="03-gemini-unified-ai.jpeg" alt="Gemini - Google's unified AI to power agents" caption="Gemini as the central AI layer." >}}
+{{< gallery-item src="26-agent-memory-context-windows.jpeg" alt="Beyond context windows - bringing memory to agents" caption="Beyond context windows." >}}
+{{< /gallery >}}
 
-Google announced four protocols that map directly to what we are building with Nexo:
+Google announced four protocols relevant to what we are building:
 
-- **ADK** (Agent Development Kit) - open framework for multi-agent solutions. We are migrating all Nexo examples to ADK.
-- **[A2A](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)** (Agent-to-Agent) - interoperability between agents. This validates Nexo as the distribution layer. A2A lets agents coordinate. Nexo gives them somewhere to go.
-- **AP2** (Agents Payment Protocol) - agentic payments. Enables food, shopping, and travel verticals.
-- **UCP** (Universal Commerce Protocol) - agentic commerce. Enables end-to-end commerce flows through partner characters.
+- **[A2A](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)** (Agent-to-Agent) - interoperability between agents. A2A lets agents find and coordinate with each other.
+- **[ADK](https://google.github.io/adk-docs/)** (Agent Development Kit) - open framework for multi-agent solutions. Multi-agent orchestration, local dev UI, human-in-the-loop, model-agnostic.
+- **AP2** (Agents Payment Protocol) - agentic payments across food, shopping, and travel.
+- **UCP** (Universal Commerce Protocol) - end-to-end agentic commerce.
 
-Google is solving interoperability. Nexo is solving distribution. They are complementary, not competing.
-
-### Agent Development Kit
-
-{{< post-image src="02-agent-development-kit.jpeg" alt="Google Agent Development Kit presentation" caption="ADK - framework and SDK for multi-agent solutions." width="640px" >}}
-
-Open framework for multi-agent solutions. Multi-agent orchestration, local dev UI for visualization and tracing, human-in-the-loop support, and model-agnostic - any model, not just Gemini. We are migrating all Nexo partner examples to ADK.
+Google is solving how agents talk to each other. We are working on where they go. The two fit together.
 
 ### GenMedia on Vertex AI
 
-{{< post-image src="01-genmedia-vertex-ai.jpeg" alt="GenMedia on Vertex AI presentation" caption="The full generative media suite under one platform." width="640px" >}}
+The full generative media suite on [Vertex AI](https://cloud.google.com/vertex-ai):
 
-The full generative media suite: Veo 3.1 for video generation, Imagen 4 for image generation, Lyria 2 for music, Chirp for speech, and Gemini 3.1 Pro for multimodal understanding with a 1M token context window.
+- **[Veo](https://deepmind.google/technologies/veo/) 3.1** - video generation
+- **[Imagen](https://deepmind.google/technologies/imagen/) 4** - image generation
+- **[Lyria](https://deepmind.google/technologies/lyria/) 2** - music generation
+- **[Chirp](https://cloud.google.com/text-to-speech)** - speech-to-text and text-to-speech
+- **Gemini 3.1 Pro** - multimodal understanding with a 1M token context window
 
-These are capabilities partners can surface through their Nexo characters. A travel character generating destination videos. A fitness character creating workout visuals. A language tutor using speech-to-text. GenMedia is the capability layer. Nexo is the distribution channel.
+Interesting capabilities to experiment with - video, image, speech - and see what works inside a conversational AI product.
 
 ### Agent Memory
 
-{{< post-image src="26-agent-memory-context-windows.jpeg" alt="Beyond context windows - bringing memory to agents" caption="Beyond context windows - persistent memory for agents." width="640px" >}}
+"Beyond context windows, bringing memory to agents."
 
-"Beyond context windows, bringing memory to agents." Agent Engine Sessions for short-term conversation memory and Agent Engine Memory Bank for long-term persistence. This is what Nexo's consented profile context already does. Google building this into their platform validates our approach.
+- **Agent Engine Sessions** - short-term conversation memory
+- **Agent Engine Memory Bank** - long-term persistent memory
 
-### Gemini as the Unified AI Layer
-
-{{< post-image src="03-gemini-unified-ai.jpeg" alt="Gemini - Google's unified AI to power agents" caption="Gemini as the central AI layer." width="640px" >}}
-
-Gemini positioned as the central AI layer connecting text, code, audio, video, images, search, actions, planning, and training.
+Good to see Google building this into their platform.
 
 ## Notable Sessions
 
-{{< post-image src="05-clement-farabet-deepmind.jpeg" alt="Clement Farabet, VP AI Engineering, Google DeepMind" caption="Clement Farabet, VP AI Engineering, Google DeepMind." width="640px" >}}
+{{< gallery >}}
+{{< gallery-item src="05-clement-farabet-deepmind.jpeg" alt="Clement Farabet, VP AI Engineering, Google DeepMind" caption="Clement Farabet, VP AI Engineering, Google DeepMind." >}}
+{{< gallery-item src="10-freepik-joaquin-cuenca.jpeg" alt="Joaquin Cuenca, CEO of Freepik" caption="Joaquin Cuenca, CEO of Freepik." >}}
+{{< gallery-item src="15-ai-chip-design.jpeg" alt="AI for Chip Design presentation" caption="AI for Chip Design." >}}
+{{< gallery-item src="25-system-architecture-agents.jpeg" alt="System Architecture of Agents in Google Cloud" caption="System architecture of agents." >}}
+{{< gallery-item src="28-identity-governance.jpeg" alt="Identity and governance for agents" caption="Identity and governance." >}}
+{{< /gallery >}}
 
-[Clement Farabet](https://en.wikipedia.org/wiki/Clement_Farabet), VP AI Engineering at Google DeepMind. Previously VP AI Infrastructure at NVIDIA.
+[Clement Farabet](https://en.wikipedia.org/wiki/Clement_Farabet), VP AI Engineering at Google DeepMind. Previously VP AI Infrastructure at NVIDIA. [Sergio Guadarrama](https://scholar.google.com/citations?user=0ORsAH4AAAAJ), Principal Research at Google DeepMind, on applied AI from research to product. [Joaquin Cuenca](https://www.linkedin.com/in/joaquincuenca/), CEO & Co-founder of Freepik, on how they pivoted to using AI for their stock photo platform.
 
-{{< post-image src="10-freepik-joaquin-cuenca.jpeg" alt="Joaquin Cuenca, CEO of Freepik, presenting on multimodality" caption="Joaquin Cuenca, CEO of Freepik, on the power of multimodality." width="640px" >}}
+## Developer Tooling
 
-[Joaquin Cuenca](https://www.linkedin.com/in/joaquincuenca/), CEO & Co-founder of Freepik. How they pivoted to using AI for their stock photo platform.
+This is where I think Google is playing wait and see, and I understand why. There is a lot of innovation happening right now with [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex](https://openai.com/index/introducing-codex/), and to a certain extent [Cursor](https://cursor.com). The space is moving fast and Google has a lot of competing products in flight - the [Windsurf acquisition](https://blog.google/technology/google-labs/windsurf/), changes to [Firebase](https://firebase.google.com/), Gemini CLI, Antigravity.
 
-{{< post-image src="15-ai-chip-design.jpeg" alt="AI for Chip Design presentation" caption="AI for Chip Design - Google using AI to build the hardware that runs AI." width="640px" >}}
+A few observations from using Gemini for coding:
 
-{{< post-image src="25-system-architecture-agents.jpeg" alt="System Architecture of Agents in Google Cloud" caption="System architecture of agents in Google Cloud." width="640px" >}}
+- **Token limits are a real problem.** Every time I have used Gemini for coding I run out of tokens within 15-20 minutes, and there is no friction-free upgrade path. You just hit a wall.
+- **Gemini is genuinely impressive for UI work.** For frontend and visual tasks it is a step above what I have seen in other tools. I have [history](/posts/fck-you-gemini/) with Gemini, but credit where it is due.
+- **Antigravity does not feel differentiated.** It looks like another skin on top of VS Code. I think Google would be better off investing at a higher abstraction level - something closer to [Cowork](https://claude.com/product/cowork) - because a lot of developers are moving back into the terminal. The IDE space feels fragile right now.
 
-{{< post-image src="28-identity-governance.jpeg" alt="Identity and governance for agents" caption="Identity and governance." width="640px" >}}
+If I were at Google right now, I would consider abandoning Gemini CLI and putting weight behind something like [OpenCode](https://opencode.ai/), which is model-agnostic and has a lot of innovation behind it. Developers want to choose their models and their workflows. Building another proprietary CLI is swimming against that current.
 
-## Where Nexo Goes From Here
+Google is pushing a lot of different flywheels at the moment. The agent and multimodal work is strong. The developer tooling feels like it has not found its focus yet.
 
-The Nexo demos are deliberately broad. I was testing every use case to push the boundaries, not to polish individual verticals. Some are superficial wrappers around LLMs and RAG, just to anchor the possibilities and simulate what the experience could feel like.
+While everyone else was building agents for the competition, I was in the back row building the thing I had just pitched. Different kind of hackathon.
 
-Now we can tease out what fits. Pick the verticals that work, go deep, and build them properly. Google is pushing A2A across verticals. We can build on that - voice, image, video, agent-to-agent - and showcase real solutions through Nexo that make both platforms look good. Their interoperability layer gets distribution. Our distribution layer gets cutting-edge capabilities.
+Thanks to [Jorge Gil Pena](https://www.linkedin.com/in/jorgegilpena/), a good friend who works at Google Cloud, for the invite.
 
-All of this without changing the core of Luzia. Nexo sits alongside it. Partners plug in, users get richer experiences, and the core product stays largely untouched.
-
-{{< post-image src="29-bonhill-street-exterior.jpeg" alt="Bonhill Street, London" caption="Bonhill Street, London." width="480px" >}}
+{{< post-image src="27-mark-coding-new-way-to-cloud.jpeg" alt="Mark MacMahon coding at Google Cloud office" caption="The back row." width="480px" >}}
