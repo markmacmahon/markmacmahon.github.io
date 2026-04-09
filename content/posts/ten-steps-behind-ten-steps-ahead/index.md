@@ -1,6 +1,6 @@
 +++
 title = 'Ten Steps Behind, Ten Steps Ahead'
-date = 2026-04-09T10:00:00Z
+date = 2026-04-08T10:00:00Z
 slug = 'ten-steps-behind-ten-steps-ahead'
 draft = false
 description = 'On empathy, humility, and questions worth asking every time.'
@@ -8,7 +8,7 @@ description = 'On empathy, humility, and questions worth asking every time.'
   priority = 0.8
 [params]
   series_number = 13
-  coming_soon = true
+  coming_soon = false
   song_title = 'Step On'
   song_artist = 'Happy Mondays'
   song_year = '1990'
