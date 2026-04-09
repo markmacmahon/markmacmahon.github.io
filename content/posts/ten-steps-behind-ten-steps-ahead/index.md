@@ -8,7 +8,7 @@ description = 'On empathy, humility, and questions worth asking every time.'
   priority = 0.8
 [params]
   series_number = 13
-  coming_soon = false
+  coming_soon = true
   song_title = 'Step On'
   song_artist = 'Happy Mondays'
   song_year = '1990'
