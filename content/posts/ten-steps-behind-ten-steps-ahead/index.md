@@ -1,44 +1,38 @@
 +++
 title = 'Ten Steps Behind, Ten Steps Ahead'
-date = 2026-04-06T10:00:00Z
+date = 2026-04-09T10:00:00Z
 slug = 'ten-steps-behind-ten-steps-ahead'
-draft = true
+draft = false
 description = 'On empathy, humility, and questions worth asking every time.'
 [sitemap]
   priority = 0.8
 [params]
   series_number = 13
-  coming_soon = false
+  coming_soon = true
   song_title = 'Step On'
   song_artist = 'Happy Mondays'
   song_year = '1990'
   song_url = 'https://open.spotify.com/track/1GfVc3sAQnGSZ8J5ngH5ys'
 +++
 
-> "The major problems of our work are not so much technological as sociological in nature." - [Tom DeMarco & Timothy Lister](https://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams), Peopleware, 1987.
-
-The technology changes every few years. The people problems travel with it - and AI has turned up the volume.
-
-The engineer building microservices when a monolith would do. Building for scale when there are no users yet. The stakeholder who wanted the big plan upfront when a small team could learn more by shipping incrementally. The product manager whose entire experience told them that building APIs takes weeks - and they mean well, they are drawing on what they know, but AI has changed the baseline underneath them. The SaaS tool brought in to solve a problem that did not exist yet - and once it is in, almost impossible to remove. As [Tolkien](https://www.goodreads.com/quotes/162498-short-cuts-make-long-delays) put it: "Short cuts make long delays."
-
-{{< post-image src="ten-steps-behinh-10-steps-ahead.jpeg" alt="Tweet: In programming, if someone tells you you're overcomplicating it, they're either 10 steps behind you or 10 steps ahead of you" caption="<a href='https://x.com/acdlite/status/1009317963382439936'>@acdlite</a>, June 2018." width="480px" >}}
+{{< post-image src="ten-steps-behind-10-steps-ahead.jpeg" alt="Tweet: In programming, if someone tells you you're overcomplicating it, they're either 10 steps behind you or 10 steps ahead of you" caption="<a href='https://x.com/acdlite/status/1009317963382439936'>@acdlite</a>, June 2018." width="480px" >}}
 
 I first saw this tweet in 2018 and it has stayed with me. What makes it so good is that it invites empathy. Not "who is right" but "what are they seeing that I am not?" And the other way around - "what am I seeing that they might not be?"
 
-Part of what makes this so hard is the gap between implicit and explicit knowledge. [Michael Polanyi](https://press.uchicago.edu/ucp/books/book/chicago/T/bo6035368.html) put it simply: "We can know more than we can tell." The most performant teams operate implicitly - shared context, shorthand, decisions that do not need explaining because everyone already understands the reasoning. That is what makes them fast. It is also what makes them impenetrable to anyone outside the team. A new product manager walks in, sees decisions being made without explanation, and thinks the team is overcomplicating things. The team is not hiding anything - they just cannot see what needs to be made explicit because they have internalised it. The [curse of knowledge](https://mitsloan.mit.edu/ideas-made-to-matter/curse-knowledge-why-experts-struggle-to-explain-their-work) - once you know something, you cannot remember what it was like not to know.
+[Tom DeMarco and Timothy Lister](https://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams) wrote in 1987 that the major problems of our work are not so much technological as sociological in nature. People problems. The confidence gaps. The [HiPPO](https://www.forbes.com/sites/derosetichy/2013/04/15/what-happens-when-a-hippo-runs-your-company/) in the room shaping the decision. The quiet engineer who sees the flaw but does not have the political capital to say it.
 
-And it is rarely clean. A product manager can be right about what the market needs and wrong about why the architecture matters - or right about the architecture because they have seen what scales. An engineer can be right about the system design and wrong about the business case - or right about the customer because they built the thing the customer actually uses. AI blurs these lines further. Ten steps ahead on one dimension, ten steps behind on another, in the same conversation.
+[Michael Polanyi](https://press.uchicago.edu/ucp/books/book/chicago/T/bo6035368.html) put it simply: "We can know more than we can tell." The best teams operate implicitly - shared context, shorthand, decisions that do not need explaining because everyone already understands the reasoning. That is what makes them fast. It is also what makes them impenetrable to anyone outside the team. A new CTO who wants to rewrite everything with microservices before understanding why it was built the way it was. A product leader who assumes the team is overcomplicating things. Neither is wrong to ask the question. And neither has the full picture yet - the team cannot explain what they have internalised, and they may simply be wrong.
 
-Over the years I have found a few things that help. When I can see a pattern that nobody else in the room sees, I try to influence by asking questions rather than stating conclusions. It gives the other person space to think instead of forcing the answer. When someone tells me I am overcomplicating something and I am not sure they are right, I look for the middle ground - what is the smallest thing we can build where we learn?
+[Fred Brooks](https://en.wikipedia.org/wiki/No_Silver_Bullet) drew the distinction in 1986: accidental complexity versus essential complexity. Accidental complexity is the stuff we created for ourselves - the ceremony, the boilerplate, the friction that had nothing to do with the actual problem. Essential complexity is the stuff that is genuinely hard. AI is stripping away the accidental kind. The danger is assuming it has also handled the essential.
 
-After building my own startup, [Localstream](https://www.crunchbase.com/organization/localstream), I started thinking less about the solution and more about the business. I had been following [Des Traynor](https://www.intercom.com/blog/what-does-feature-creep-look-like/) at Intercom for a while before I saw him speak at a startup summit in Berlin in 2013. "Good product owners let in very few dud features. Great ones kill them on sight." A few years later I saw [Sean Ellis](https://en.wikipedia.org/wiki/Sean_Ellis_(business)) at a growth hacking meetup at BCG Digital Ventures in Berlin. The core idea is simple: learn before you build. A 404 page test to see if anyone clicks before writing a line of code. Ship the smallest thing, measure, decide.
+The lines between disciplines have been blurring for years. Product people are more technically literate. Engineers are more product-aware. Designers think in systems. AI has accelerated this - a product manager can spin up a prototype, an engineer can run customer research, a designer can write working code. Everyone is more capable across disciplines than ever before. But with that comes a new kind of blind spot. The question is whether that breadth comes with the awareness of what you still do not know.
 
-Of course this does not work in every environment. Sometimes stakeholders just want the thing they asked for and will take the pain of learning too late. Vanity features. Power dynamics. A feature promised to a client or an investor before anyone checked if it was the right thing to build. The question still applies - they might be right about the market and wrong about the approach, or wrong about both.
+[Des Traynor](https://www.intercom.com/blog/what-does-feature-creep-look-like/) at Intercom put it well: "Good product owners let in very few dud features. Great ones kill them on sight." Sometimes the simplest way to test an idea is not to build it at all. A 404 page to see if anyone clicks before writing a line of code. When building feels free, it is also free for your competitors. Depth, focus, and knowing what not to build matter more than ever.
 
-I [wrote before](/posts/craftsmanship-vs-craftsmanshit/) that AI amplifies whatever you bring to it. The same is true here - the craft and the people problems alike. Things that took weeks can now be done in hours. But you can ship ten things in the time it used to take to ship one, and you still have to maintain all ten. [Fred Brooks](https://en.wikipedia.org/wiki/No_Silver_Bullet) drew the distinction in 1986: accidental complexity versus essential complexity. AI is good at stripping out the accidental kind. But when everything is possible, the essential complexity becomes knowing what not to do. That is strategy.
+> **AI Status Signalling** - The act of publicly aligning oneself with AI to project competence, relevance, or forward-thinking - often prioritising visibility over substance, and signalling participation in the trend regardless of depth of understanding or meaningful impact.
 
-AI has also introduced a new version of the problem. Because it is so much easier to create software now, people reach conclusions before they have understood the problem. They think they understand something because they built something. The [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) accelerated - confidence arrives before competence. And the tools push everyone towards being solution-oriented rather than problem-oriented, because building is now the easy part. Understanding what to build, and what not to build, is harder than ever.
+None of this is new. The tools are new. The people dynamics are the same ones they have always been. I [wrote before](/posts/craftsmanship-vs-craftsmanshit/) that AI amplifies whatever you bring to it. The same is true here. What has changed is the speed - and the confidence. AI gives everyone more capability, which is genuinely exciting. It also gives everyone more certainty than the situation warrants.
 
-In every conversation about complexity, in every disagreement about approach - not "who is right" but "what might I be missing?"
+In every conversation about complexity, in every disagreement about approach - am I ten steps behind, or ten steps ahead?
 
-The contexts change. The tools change. The question does not.
+The contexts change. The tools change. The questions do not. And the hardest ones are still the simplest - what if I am wrong? What if I am right?
