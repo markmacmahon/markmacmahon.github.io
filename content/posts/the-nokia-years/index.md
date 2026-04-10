@@ -1,6 +1,6 @@
 +++
 title = 'The Nokia Years'
-date = 2026-04-10T10:00:00Z
+date = 2026-04-11T10:00:00Z
 slug = 'the-nokia-years'
 draft = false
 description = 'On strategy, execution, and the burning platform.'
