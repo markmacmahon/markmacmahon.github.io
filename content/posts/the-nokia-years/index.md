@@ -65,7 +65,7 @@ On trips to the US I would drop into the Boston office - the MetaCarta team. Mac
 
 Every month I flew to Chicago for Scrum of Scrum meetings at the former Navteq office. Two hundred people in a large room, everyone putting post-it notes on the board, following the Scrum process religiously. It was a bit ridiculous. It did not feel very agile. But it was what they needed at that scale, and it worked for them.
 
-There was always a friendly rivalry between the three offices. Berlin, Boston, Chicago. I got on well with people in all of them. But there are always political dynamics when multiple offices work on the same problem, and every office is looking out for itself. We had a small team in Berlin - building most of the Places infrastructure, refactoring it into a more suitable architecture. But a small team cannot survive against two hundred people in Chicago when power dynamics play out. The dynamics were structural, not personal. That does not make them less real.
+There was always a friendly rivalry between the three offices. Berlin, Boston, Chicago. I got on well with people in all of them. But there are always political dynamics when multiple offices work on the same problem, and every office is looking out for itself. We had a small team in Berlin - building most of the Places infrastructure, refactoring it into a more suitable architecture. But a small team cannot survive against two hundred people in Chicago when power dynamics play out. The dynamics were structural. That does not mean they were always innocent.
 
 ## The US Blind Spot
 
