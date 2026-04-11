@@ -24,6 +24,8 @@ It happens everywhere. Between engineers at different experience levels. Between
 [Tom DeMarco and Timothy Lister](https://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams) wrote in 1987 that the major problems of our work are not so much technological as sociological in nature. People problems. That was true then. It is true now. The confidence and competence gaps. The [HiPPO](https://www.forbes.com/sites/derosetichy/2013/04/15/what-happens-when-a-hippo-runs-your-company/) in the room shaping the decision. The quiet engineer who sees the flaw but does not have the political capital to say it. The confident voice is rarely the most informed. More capability has not changed this. It has added a new layer. Open LinkedIn on any given morning and you can see it.
 
 > **AI Status Signalling** - The act of publicly aligning oneself with AI to project competence, relevance, or forward-thinking - often prioritising visibility over substance, and signalling participation in the trend regardless of depth of understanding or meaningful impact.
+>
+> *Or, in more colloquial terms across Britain and Ireland: [to waffle](https://www.urbandictionary.com/define.php?term=waffling) about AI.*
 
 The tell is volume. The people doing the most interesting work with AI tend to be the quietest about it. The loudest advocates are rarely the ones who have to make it actually work - they dismiss the details, skip the nuance, and move on with more confidence than the situation earned. Someone else inherits the complexity, the failure modes, and the Friday night debugging session. The hardest part is that you cannot tell when you are the one doing it.
 
