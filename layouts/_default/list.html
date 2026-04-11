@@ -7,7 +7,10 @@
         {{- with .Params.series_number }}<span class="series-num">{{ printf "%02d" . }}</span>{{ end }}
         {{ .Title -}}
       </a>
-      <span>{{ if .Params.coming_soon }}Coming soon{{ else }}{{ .Date.Format "02 Jan 2006" }}{{ end }}</span>
+      {{ if .Params.coming_soon }}<span>Coming soon</span>
+      {{ else }}<span>{{ .Date.Format "02 Jan 2006" }}</span>
+      {{ with .Description }}<p class="post-list-desc">{{ . }}</p>{{ end }}
+      {{ end }}
     </li>
   {{ end }}
 </ul>

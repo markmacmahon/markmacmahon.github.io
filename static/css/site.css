@@ -74,8 +74,9 @@ h1, h2, h3 {
 
 .post-list li {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 12px;
+  gap: 4px 12px;
   border-bottom: 1px solid var(--line);
   padding: 10px 0;
 }
@@ -85,6 +86,14 @@ h1, h2, h3 {
 .meta {
   color: var(--muted);
   font-size: 14px;
+}
+
+.post-list-desc {
+  width: 100%;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-style: italic;
 }
 
 .post-header {
