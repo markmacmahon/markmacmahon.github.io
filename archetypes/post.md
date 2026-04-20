@@ -9,6 +9,7 @@ description = ''
 [params]
   series_number = 0
   coming_soon = true
+  og_image = ''
   song_title = ''
   song_artist = ''
   song_year = ''

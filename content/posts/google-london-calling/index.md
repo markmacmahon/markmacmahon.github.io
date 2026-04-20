@@ -9,6 +9,7 @@ description = "Two days inside Google Cloud's AI Innovators Expedition."
 [params]
   series_number = 12
   coming_soon = false
+  og_image = '/posts/google-london-calling/00-mark-pitching-nexo.jpeg'
   song_title = 'London Calling'
   song_artist = 'The Clash'
   song_year = '1979'

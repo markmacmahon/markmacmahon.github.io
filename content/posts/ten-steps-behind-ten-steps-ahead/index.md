@@ -9,6 +9,7 @@ description = 'On empathy, humility, and AI status signalling.'
 [params]
   series_number = 13
   coming_soon = false
+  og_image = '/posts/ten-steps-behind-ten-steps-ahead/ten-steps-behind-10-steps-ahead.jpeg'
   song_title = 'Step On'
   song_artist = 'Happy Mondays'
   song_year = '1990'

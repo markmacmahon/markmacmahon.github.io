@@ -9,6 +9,7 @@ description = 'On strategy, execution, and the burning platform.'
 [params]
   series_number = 14
   coming_soon = false
+  og_image = '/posts/the-nokia-years/nokia-connecting-people.jpeg'
   song_title = 'The Unforgettable Fire'
   song_artist = 'U2'
   song_year = '1984'
