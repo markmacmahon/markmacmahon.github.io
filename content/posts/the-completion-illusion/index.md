@@ -9,6 +9,7 @@ description = 'Or, how to stop flogging a dead horse with AI.'
 [params]
   series_number = 15
   coming_soon = false
+  og_image = '/posts/the-completion-illusion/horse-meme.png'
   song_title = 'My Lovely Horse'
   song_artist = 'The Divine Comedy'
   song_year = '1996'
